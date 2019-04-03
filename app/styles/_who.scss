@@ -1,0 +1,18 @@
+#who {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1e8ef+1,ffffff+50 */
+  background: $primary-color; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, $primary-color 1%, #ffffff 50%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, $primary-color 1%, #ffffff 50%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, $primary-color 1%, #ffffff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  .bs_one {
+    margin-bottom: 30px;
+    padding: 0 50px;
+    p {
+      margin: 15px 0;
+    }
+  }
+  img {
+    -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  }
+}
