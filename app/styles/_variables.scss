@@ -42,10 +42,11 @@ $quaternary-color: #714954;
   url('../fonts/open-sans-v15-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
 
 $primary-font-family: 'Open Sans', sans-serif;
-$secondary-font-family: 'Rock Salt', cursive;
+$secondary-font-family: 'Shadows Into Light Two', cursive;
 
 //Typography
 $h1-font-family: $primary-font-family;
@@ -57,7 +58,7 @@ $h1-margin: 30px;
 $h1-transform: none;
 
 $h2-font-family: $secondary-font-family;
-$h2-size: 100px;
+$h2-size: 80px;
 $h2-weight: 300;
 $h2-color: $dark-gray;
 $h2-line-height: 1.25em;

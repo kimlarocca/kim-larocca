@@ -53,7 +53,7 @@ $(document).ready(function () {
                 if (currentCategory === 'all') $logo.removeClass('bs_hide');
             });
         }
-    });
+    })
 
     //smoke effect
     var camera, scene, renderer, geometry, material, mesh;
@@ -64,7 +64,7 @@ $(document).ready(function () {
     function init() {
         clock = new THREE.Clock();
 
-        renderer = new THREE.WebGLRenderer({ alpha: true });
+        renderer = new THREE.WebGLRenderer({alpha: true});
         renderer.setClearColor(0x000000, .1);
         renderer.setSize(window.innerWidth, window.innerHeight);
 
@@ -73,7 +73,12 @@ $(document).ready(function () {
         var ambientLight = new THREE.AmbientLight(0xffffff);
         scene.add(ambientLight);
 
-        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+        camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            1,
+            10000
+        );
         camera.position.z = 1000;
         scene.add(camera);
 
@@ -85,10 +90,12 @@ $(document).ready(function () {
         mesh = new THREE.Mesh(geometry, material);
         //scene.add( mesh );
         cubeSineDriver = 0;
-        smokeTexture = THREE.ImageUtils.loadTexture('images/smoke.png');
+        smokeTexture = THREE.ImageUtils.loadTexture(
+            'images/smoke.png'
+        );
         smokeMaterial = new THREE.MeshLambertMaterial({
             color: 0xf8cb8a,
-            opacity: 0.1,
+            opacity: 0.15,
             map: smokeTexture,
             transparent: true
         });
@@ -97,7 +104,11 @@ $(document).ready(function () {
 
         for (p = 0; p < 150; p++) {
             var particle = new THREE.Mesh(smokeGeo, smokeMaterial);
-            particle.position.set(Math.random() * 500 - 250, Math.random() * 500 - 250, Math.random() * 1000 - 100);
+            particle.position.set(
+                Math.random() * 500 - 250,
+                Math.random() * 500 - 250,
+                Math.random() * 1000 - 100
+            );
             particle.rotation.z = Math.random() * 360;
             scene.add(particle);
             smokeParticles.push(particle);
@@ -131,7 +142,7 @@ $(document).ready(function () {
     // Smooth scroll to anchor links
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
-    .not('[href="#"]').not('[href="#0"]').click(function (event) {
+        .not('[href="#"]').not('[href="#0"]').click(function (event) {
         // On-page links
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             // Figure out element to scroll to
@@ -160,4 +171,3 @@ $(document).ready(function () {
         }
     });
 });
-//# sourceMappingURL=main.js.map

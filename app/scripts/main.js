@@ -95,7 +95,7 @@ $(document).ready(function () {
         );
         smokeMaterial = new THREE.MeshLambertMaterial({
             color: 0xf8cb8a,
-            opacity: 0.1,
+            opacity: 0.15,
             map: smokeTexture,
             transparent: true
         });

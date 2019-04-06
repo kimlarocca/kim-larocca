@@ -1,1 +1,173 @@
-$(document).ready(function(){function e(){delta=clock.getDelta(),requestAnimationFrame(e),o(),n()}function o(){for(var e=smokeParticles.length;e--;)smokeParticles[e].rotation.z+=.2*delta}function n(){c.rotation.x+=.005,c.rotation.y+=.01,cubeSineDriver+=.01,c.position.z=100+500*Math.sin(cubeSineDriver),r.render(i,a)}$("#trigger").click(function(){$("#menu").toggleClass("open"),$("#trigger").toggleClass("open")}),$(".nav-link").click(function(){$("#menu").removeClass("open"),$("#trigger").removeClass("open"),$("#toggle").prop("checked",!1)});var t=$("#what").offset().top;$(function(){$(window).scroll(function(){$(window).scrollTop()>=t?$("#trigger").addClass("black"):$("#trigger").removeClass("black")})}),$("#openReviews").click(function(){$("#reviews").addClass("open")}),$("#closeReviews").click(function(){$("#reviews").removeClass("open")}),$.ajax({type:"GET",url:"logos.json",dataType:"json",success:function(e){$.each(e,function(o){$("#logos").append('<div class="bs_one logo '+e[o].category+'"><img src="'+e[o].url+'"></div>')});var o=$(".sort"),n=$(".logo");o.click(function(){var e=$(this);o.addClass("inactive"),e.removeClass("inactive");var t=e.data("category");n.addClass("bs_hide"),$("."+t).removeClass("bs_hide"),"all"===t&&n.removeClass("bs_hide")})}});var a,i,r,s,l,c;!function(){clock=new THREE.Clock,r=new THREE.WebGLRenderer({alpha:!0}),r.setClearColor(0,.1),r.setSize(window.innerWidth,window.innerHeight),i=new THREE.Scene;var e=new THREE.AmbientLight(16777215);for(i.add(e),a=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,1,1e4),a.position.z=1e3,i.add(a),s=new THREE.CubeGeometry(200,200,200),l=new THREE.MeshLambertMaterial({color:16305034,wireframe:!1}),c=new THREE.Mesh(s,l),cubeSineDriver=0,smokeTexture=THREE.ImageUtils.loadTexture("images/smoke.png"),smokeMaterial=new THREE.MeshLambertMaterial({color:16305034,opacity:.1,map:smokeTexture,transparent:!0}),smokeGeo=new THREE.PlaneGeometry(300,300),smokeParticles=[],p=0;p<150;p++){var o=new THREE.Mesh(smokeGeo,smokeMaterial);o.position.set(500*Math.random()-250,500*Math.random()-250,1e3*Math.random()-100),o.rotation.z=360*Math.random(),i.add(o),smokeParticles.push(o)}document.getElementById("smoke").appendChild(r.domElement)}(),e(),$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(e){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var o=$(this.hash);o=o.length?o:$("[name="+this.hash.slice(1)+"]"),o.length&&(e.preventDefault(),$("html, body").animate({scrollTop:o.offset().top},1e3,function(){var e=$(o);if(e.focus(),e.is(":focus"))return!1;e.attr("tabindex","-1"),e.focus()}))}})});
+$(document).ready(function () {
+    //navigation
+    $('#trigger').click(function () {
+        $('#menu').toggleClass('open');
+        $('#trigger').toggleClass('open');
+    });
+    $('.nav-link').click(function () {
+        $('#menu').removeClass('open');
+        $('#trigger').removeClass('open');
+        $('#toggle').prop('checked', false);
+    });
+
+    //change hamburger menu color on scroll
+    var offset = $('#what').offset().top;
+    $(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= offset) {
+                $('#trigger').addClass('black');
+            } else {
+                $('#trigger').removeClass('black');
+            }
+        });
+    });
+
+    //show/hide reviews
+    $('#openReviews').click(function () {
+        $('#reviews').addClass('open');
+        console.log('kim');
+    });
+    $('#closeReviews').click(function () {
+        $('#reviews').removeClass('open');
+    });
+
+    //logos
+    $.ajax({
+        type: 'GET',
+        url: 'logos.json',
+        dataType: 'json',
+        success: function (data) {
+            $.each(data, function (index) {
+                $('#logos').append('<div class="bs_one logo ' + data[index].category + '"><img src="' + data[index].url + '"></div>');
+            });
+            //sorting
+            var $sort = $('.sort');
+            var $logo = $('.logo');
+            $sort.click(function () {
+                var $this = $(this);
+                $sort.addClass('inactive');
+                $this.removeClass('inactive');
+                var currentCategory = $this.data('category');
+                $logo.addClass('bs_hide');
+                $('.' + currentCategory).removeClass('bs_hide');
+                if (currentCategory === 'all') $logo.removeClass('bs_hide');
+            });
+        }
+    })
+
+    //smoke effect
+    var camera, scene, renderer, geometry, material, mesh;
+
+    init();
+    animate();
+
+    function init() {
+        clock = new THREE.Clock();
+
+        renderer = new THREE.WebGLRenderer({alpha: true});
+        renderer.setClearColor(0x000000, .1);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        scene = new THREE.Scene();
+
+        var ambientLight = new THREE.AmbientLight(0xffffff);
+        scene.add(ambientLight);
+
+        camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            1,
+            10000
+        );
+        camera.position.z = 1000;
+        scene.add(camera);
+
+        geometry = new THREE.CubeGeometry(200, 200, 200);
+        material = new THREE.MeshLambertMaterial({
+            color: 0xf8cb8a,
+            wireframe: false
+        });
+        mesh = new THREE.Mesh(geometry, material);
+        //scene.add( mesh );
+        cubeSineDriver = 0;
+        smokeTexture = THREE.ImageUtils.loadTexture(
+            'images/smoke.png'
+        );
+        smokeMaterial = new THREE.MeshLambertMaterial({
+            color: 0xf8cb8a,
+            opacity: 0.15,
+            map: smokeTexture,
+            transparent: true
+        });
+        smokeGeo = new THREE.PlaneGeometry(300, 300);
+        smokeParticles = [];
+
+        for (p = 0; p < 150; p++) {
+            var particle = new THREE.Mesh(smokeGeo, smokeMaterial);
+            particle.position.set(
+                Math.random() * 500 - 250,
+                Math.random() * 500 - 250,
+                Math.random() * 1000 - 100
+            );
+            particle.rotation.z = Math.random() * 360;
+            scene.add(particle);
+            smokeParticles.push(particle);
+        }
+
+        document.getElementById('smoke').appendChild(renderer.domElement);
+    }
+
+    function animate() {
+        delta = clock.getDelta();
+        requestAnimationFrame(animate);
+        evolveSmoke();
+        render();
+    }
+
+    function evolveSmoke() {
+        var sp = smokeParticles.length;
+        while (sp--) {
+            smokeParticles[sp].rotation.z += delta * 0.2;
+        }
+    }
+
+    function render() {
+        mesh.rotation.x += 0.005;
+        mesh.rotation.y += 0.01;
+        cubeSineDriver += 0.01;
+        mesh.position.z = 100 + Math.sin(cubeSineDriver) * 500;
+        renderer.render(scene, camera);
+    }
+
+    // Smooth scroll to anchor links
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+        .not('[href="#"]').not('[href="#0"]').click(function (event) {
+        // On-page links
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+                // Only prevent default if animation is actually gonna happen
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000, function () {
+                    // Callback after animation
+                    // Must change focus!
+                    var $target = $(target);
+                    $target.focus();
+                    if ($target.is(':focus')) {
+                        // Checking if the target was focused
+                        return false;
+                    } else {
+                        $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                        $target.focus(); // Set focus again
+                    }
+                });
+            }
+        }
+    });
+});

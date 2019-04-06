@@ -35,6 +35,10 @@ body {
   background-size: cover;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 img {
   max-width: 100%;
   height: auto;

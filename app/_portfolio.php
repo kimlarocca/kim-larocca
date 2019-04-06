@@ -101,5 +101,8 @@
                 </div>
             </div>
         </div>
+        <div class="bs_centeredOnMobile">
+            <a class="button" href="portfolio.php">view more</a>
+        </div>
     </div>
 </section>
