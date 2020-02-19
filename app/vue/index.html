@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shopping List App</title>
+    <style>
+        .strikeout {
+            text-decoration: line-through;
+        }
+        .highPriority {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="shopping-list">
+    <h1>{{ header ? header : 'welcome' }}</h1>
+    <button v-if="state === 'default'" @click="changeState('edit')">add item</button>
+    <button v-else @click="changeState('default')">cancel</button>
+    <div v-if="state ==='edit'" class="add-item-form">
+        <input v-model="newItem" @keyup.enter="saveItem" type="text" placeholder="add a new item">
+        <button :disabled="newItem.length === 0" @click="saveItem">save item</button>
+    </div>
+    <ul>
+        <li v-for="item in reversedItems" :class="{strikeout: item.purchased}" @click="togglePurchased(item)">{{ item.label }}</li>
+    </ul>
+    <p v-if="items.length === 0">nice job you bought all your items</p>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var shoppingList = new Vue({
+        el: '#shopping-list',
+        data: {
+            state: "default",
+            header: 'shopping list app',
+            newItem: '',
+            items: [
+                {
+                    label: '10 party hats',
+                    purchased: false,
+                    highPriority: false,
+                },
+                {
+                    label: '2 board games',
+                    purchased: true,
+                    highPriority: false,
+                },
+                {
+                    label: '0 cups',
+                    purchased: false,
+                    highPriority: true,
+                },
+            ]
+        },
+        computed: {
+            reversedItems(){
+                return this.items.slice(0).reverse();
+            }
+        },
+        methods: {
+            saveItem: function () {
+                this.items.push({
+                    label: this.newItem,
+                    purchased: false,
+                },);
+                this.newItem = '';
+            },
+            changeState: function(newState){
+                this.state = newState;
+                this.newItem = '';
+            },
+            togglePurchased: function(item){
+                item.purchased = !item.purchased;
+            }
+        }
+    });
+</script>
+</body>
+</html>

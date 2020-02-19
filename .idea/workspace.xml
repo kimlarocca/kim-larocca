@@ -2,38 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2d7b54-1aba-4084-bb6c-a6650911a04b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nuts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/nuts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scripts/nuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/nuts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.tmp/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/scripts/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/scripts/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/_portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/_portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/_portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/_reviews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/android-chrome-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans-v15-latin-600.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/deploy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/develop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/kim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/abbvie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/alcresta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/astrazeneca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/aventis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/babies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/bausch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/bayer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/blackthorn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/bluebird.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/celgene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/dendreon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/dermira.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/easterseals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/elpis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/emd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/fao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/google.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/ibm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/incyte.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/intel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/intercept.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/intuitive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/ipsen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/kowa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/lupin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/luye.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/mentoring-method.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/merck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/nbc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/novartis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/npc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/nyu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/pfizer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/pfizer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/profusa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/rhythm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/roche.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/rutgers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/sanofi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/shcering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/showcase-slateit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/showcase-vasculogic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/showcase-yuliya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/siemens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/slateit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/toys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/visa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logos/wharton.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-abbvie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-astrazeneca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-babies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-babydriver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-elevenXi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-elpis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-luye.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-mentoring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-merck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-pdr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-pfizer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-quilts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-realestate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-sa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-sanofi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-slateit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-toys-deals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-toys.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-tricomresearch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/showcase-vasculogic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/smoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/video-poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style-guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,91 +158,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/styles/_work.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/scripts/lake.js" />
-        <option value="$PROJECT_DIR$/app/styles/_footer.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_who.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_portfolio.scss" />
-        <option value="$PROJECT_DIR$/../../homestead/Homestead.yaml" />
-        <option value="$PROJECT_DIR$/app/styles/_buttons.scss" />
-        <option value="$PROJECT_DIR$/../Kim LaRocca/css/component.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/_reviews.php" />
-        <option value="$PROJECT_DIR$/app/logos.json" />
-        <option value="$PROJECT_DIR$/app/styles/_header.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_what.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_contact.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_why.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_reviews.scss" />
-        <option value="$PROJECT_DIR$/app/_footer.php" />
-        <option value="$PROJECT_DIR$/app/_header.php" />
-        <option value="$PROJECT_DIR$/../little-big-adventures/app/portfolio.json" />
-        <option value="$PROJECT_DIR$/app/portfolio.json" />
-        <option value="$PROJECT_DIR$/app/index.php" />
-        <option value="$PROJECT_DIR$/app/portfolio.php" />
-        <option value="$PROJECT_DIR$/app/styles/_typography.scss" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/styles/_home.scss" />
-        <option value="$PROJECT_DIR$/app/styles/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/_portfolio.php" />
-        <option value="$PROJECT_DIR$/.tmp/scripts/main.js" />
-        <option value="$PROJECT_DIR$/dist/scripts/main.js" />
-      </list>
-    </option>
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="y" value="23" />
-    <option name="width" value="1720" />
-    <option name="height" value="1364" />
+    <option name="width" value="960" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectId" id="1XzyTN0zpUOg2qeThqoegCMLkNj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kim-larocca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kim-larocca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kim-larocca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kim-larocca" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kim-larocca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kim-larocca" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -151,18 +196,6 @@
       <recent name="$PROJECT_DIR$/app/styles" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,344 +225,15 @@
       <workItem from="1553358855889" duration="6861000" />
       <workItem from="1554238281759" duration="167000" />
       <workItem from="1554296365056" duration="3665000" />
+      <workItem from="1555549493821" duration="959000" />
+      <workItem from="1555619908307" duration="6216000" />
+      <workItem from="1564080848175" duration="803000" />
+      <workItem from="1578065723552" duration="538000" />
+      <workItem from="1582063227878" duration="769000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99805000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1720" height="1364" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29916567" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3578863" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mccarney-law/app/_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="n#nav#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../McCarney Law/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mccarney-law/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="17" lean-forward="true" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mccarney-law/app/_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/FullscreenOverlayStyles/css/style5.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$USER_HOME$/Downloads/Alligator-lake.js-8523fc0/lake.js" />
-    <entry file="file://$PROJECT_DIR$/.tmp/scripts/lake.js" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/lake.js" />
-    <entry file="file://$PROJECT_DIR$/app/apple-touch-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_who.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_work.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../homestead/Homestead.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Kim LaRocca/css/tooltip.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Kim LaRocca/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Kim LaRocca/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="433" lean-forward="true" selection-start-line="433" selection-end-line="459" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_framework.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="506" column="29" lean-forward="true" selection-start-line="506" selection-start-column="29" selection-end-line="506" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../little-big-adventures/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-end-line="195" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/logos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../little-big-adventures/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_why.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../little-big-adventures/app/portfolio.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="38" column="35" lean-forward="true" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_reviews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_reviews.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding>
-            <element signature="e#339#343#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_what.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="110" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="191" column="58" selection-start-line="191" selection-start-column="58" selection-end-line="191" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.tmp/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="172" column="3" selection-start-line="172" selection-start-column="3" selection-end-line="172" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="94" column="10" selection-end-line="172" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
