@@ -7,7 +7,7 @@
       <p>"Kim is the person you can count on to lead, motivate, and make sure that your team not only makes it
         to the finish line of any technical project but truly grows on the way there."</p>
     </div>
-    <a href="#what" class="scroll-down" v-smooth-scroll="{ duration: 1000 }"></a>
+    <a href="#what" tabindex="0" class="scroll-down" v-smooth-scroll="{ duration: 1000 }" aria-label="scroll down past hero image"></a>
     <div id="smoke"></div>
   </section>
 </template>

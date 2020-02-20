@@ -72,7 +72,7 @@
   {
     "name": "TeamLogic IT",
     "image": "http://www.kimlarocca.com/images/portfolio/teamlogic.jpg",
-    "url": "http://www.kimlarocca.com/images/teamlogic.jpg",
+    "url": "http://www.kimlarocca.com/images/showcase-teamlogic.jpg",
     "category": "tech",
     "description": "Frontend web development for the TeamLogic redesign. A complete component library was built with Vue, as well as custom, dynamic filtering systems for the careers and resources pages (also built with Vue)."
   },

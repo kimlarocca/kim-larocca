@@ -1,6 +1,6 @@
 <template>
 
-  <div @click="portfolioItemShow = true" tabindex="0" class="portfolio-item"
+  <div @click="portfolioItemShow = true" v-on:keypress.enter="portfolioItemShow = true" v-on:keypress.space.prevent="portfolioItemShow = true" tabindex="0" class="portfolio-item"
        :style="{ backgroundImage: `url('${backgroundImage}')` }">
     <div>
       <h2 class="banner">{{ title }}</h2>
@@ -8,7 +8,7 @@
     <transition name="slide-fade">
       <div class="portfolio-item-details" v-show="portfolioItemShow">
         <div class="container">
-          <div @click.stop="portfolioItemShow = !portfolioItemShow" class="portfolio-item-close">X</div>
+          <div tabindex="0" @click.stop="portfolioItemShow = !portfolioItemShow" v-on:keypress.enter.stop="portfolioItemShow = !portfolioItemShow" v-on:keypress.space.stop.prevent="portfolioItemShow = !portfolioItemShow" class="portfolio-item-close">X</div>
           <h3>{{ title }}</h3>
           <img :src="image" :alt="title+' screenshot'">
           <p>{{ description }}</p>

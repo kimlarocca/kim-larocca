@@ -10,17 +10,17 @@
 
       <div class="bs_row bs_centeredOnMobile">
         <div class="icon">
-          <a href="mailto:kim@kimlarocca.com">
+          <a href="mailto:kim@kimlarocca.com" aria-label="email link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                  viewBox="0 0 32 32">
-              <title>mail4</title>
+              <title>email</title>
               <path
                 d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM8 8h16c0.286 0 0.563 0.061 0.817 0.177l-8.817 10.286-8.817-10.287c0.254-0.116 0.531-0.177 0.817-0.177zM6 22v-12c0-0.042 0.002-0.084 0.004-0.125l5.864 6.842-5.8 5.8c-0.045-0.167-0.069-0.34-0.069-0.517zM24 24h-16c-0.177 0-0.35-0.024-0.517-0.069l5.691-5.691 2.826 3.297 2.826-3.297 5.691 5.691c-0.167 0.045-0.34 0.069-0.517 0.069zM26 22c0 0.177-0.024 0.35-0.069 0.517l-5.8-5.8 5.865-6.842c0.003 0.041 0.004 0.083 0.004 0.125v12z"></path>
             </svg>
           </a>
         </div>
         <div class="icon">
-          <a href="https://www.linkedin.com/in/kimlarocca/" target="_blank">
+          <a href="https://www.linkedin.com/in/kimlarocca/" target="_blank" aria-label="linkedin link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                  viewBox="0 0 32 32">
               <title>linkedin</title>
@@ -30,7 +30,7 @@
           </a>
         </div>
         <div class="icon">
-          <a href="https://github.com/kimlarocca" target="_blank">
+          <a href="https://github.com/kimlarocca" target="_blank" aria-label="github link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                  viewBox="0 0 32 32">
               <title>github</title>
@@ -40,10 +40,11 @@
           </a>
         </div>
         <div class="icon">
-          <a href="https://codepen.io/kimlarocca" target="_blank">
+          <a href="https://codepen.io/kimlarocca" target="_blank" aria-label="codepen link">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="codepen"
                  class="svg-inline--fa fa-codepen fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 512 512">
+              <title>codepen</title>
               <path
                 d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z"></path>
             </svg>
