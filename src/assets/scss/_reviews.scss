@@ -1,0 +1,51 @@
+article {
+  -webkit-column-width: 300px;
+  -moz-column-width: 300px;
+  column-width: 300px;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+  padding: 40px;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    padding: 10px;
+    margin-top: 60px;
+  }
+}
+
+.bubble {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 40px;
+  background: $dark-gray;
+  color: white;
+  -webkit-column-break-inside: avoid; /* Chrome, Safari */
+  page-break-inside: avoid; /* Theoretically FF 20+ */
+  break-inside: avoid-column; /* IE 11 */
+  display: table; /* Actually FF 20+ */
+  line-height: 1.5em;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    width: calc(100% - 30px);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 20px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: $dark-gray transparent;
+    display: block;
+    width: 0;
+    z-index: 1
+  }
+
+  small {
+    font-style: italic;
+    display: block;
+    padding-top: 10px;
+  }
+}
