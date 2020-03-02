@@ -191,5 +191,16 @@
         <small>- Jose Gonzalez, Sr. UX Designer</small>
       </div>
     </article>
+    <v-spacer size="100px"></v-spacer>
   </div>
 </template>
+
+<script>
+  import VSpacer from './VSpacer'
+
+  export default {
+    components: {
+      VSpacer
+    }
+  }
+</script>

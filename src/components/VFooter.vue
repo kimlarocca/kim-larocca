@@ -1,14 +1,15 @@
 <template>
-  <section id="contact">
+  <footer>
+    <v-spacer size="100px"></v-spacer>
     <div class="container">
       <h2>Contact Me</h2>
-      <p class="bs_margin30">Yes! I am currently taking on freelance projects for web design & web
+      <v-spacer size="2rem"></v-spacer>
+      <p class="bs_centeredOnMobile">Yes! I am currently taking on freelance projects for web design & web
         development. References are
         available upon request. More details on website development / app projects are also available
         upon request.</p>
-      <p><a href="mailto:kim@kimlarocca.com">Email me</a> or text/call 862.485.1233.</p>
-
-      <div class="bs_row bs_centeredOnMobile">
+      <v-spacer size="2rem"></v-spacer>
+      <div class="bs_row bs_centeredOnMobile bs_right">
         <div class="icon">
           <a href="mailto:kim@kimlarocca.com" aria-label="email link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
@@ -51,7 +52,70 @@
           </a>
         </div>
       </div>
-
     </div>
-  </section>
+    <canvas id="canvas"></canvas>
+    <v-spacer size="100px"></v-spacer>
+  </footer>
 </template>
+
+<script>
+  import VSpacer from './VSpacer'
+
+  export default {
+    components: {
+      VSpacer
+    },
+    mounted () {
+      var canvas = document.getElementById('canvas')
+      var ctx = canvas.getContext('2d')
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
+      var particles = []
+      var numParticles = 30
+
+      // start with random starting position
+      var Particle = function () {
+        this.x = canvas.width * Math.random()
+        this.y = canvas.height * Math.random()
+        this.vx = -1
+        this.vy = Math.random()
+      }
+      // Adding two methods
+      Particle.prototype.Draw = function (ctx) {
+        ctx.beginPath()
+        ctx.fillStyle = 'rgba(255,255,255,0.15)'
+        ctx.arc(this.x, this.y, 3, 0, 3 * Math.PI)
+        ctx.fill()
+      }
+
+      Particle.prototype.Update = function () {
+        // set the starting x/y to have velocity
+        this.x += this.vx
+        this.y += this.vy
+
+        if (this.x < 0) {
+          this.x = canvas.width // resets back to beginning
+        }
+        if (this.y < 0 || this.y > canvas.height) { // when it hits the top or bottom bounce
+          this.vy = -this.vy
+        }
+      }
+
+      function loop () {
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+        for (var i = 0; i < numParticles; i++) {
+          particles[i].Update()
+          particles[i].Draw(ctx)
+        }
+        requestAnimationFrame(loop)
+      }
+
+      // Create particles
+      for (var i = 0; i < numParticles; i++) {
+        particles.push(new Particle())
+      }
+      loop()
+    }
+  }
+</script>

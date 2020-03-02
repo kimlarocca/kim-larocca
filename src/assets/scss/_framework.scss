@@ -17,6 +17,7 @@ $breakpoint-mobile: 768px;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
   }
+
   &.bs_row.bs_direction_row {
     flex-direction: row;
     -webkit-flex-direction: row;
@@ -239,6 +240,7 @@ $breakpoint-mobile: 768px;
   top: 0;
   bottom: 0;
   margin: auto;
+
   & > div {
     width: 100%;
     height: 100%;
@@ -555,4 +557,11 @@ $breakpoint-mobile: 768px;
 
 .padding-bottom-0 {
   padding-bottom: 0;
+}
+
+.bs_marginRight1 {
+  margin-right: 1rem;
+  @media all and (max-width: $breakpoint-mobile) {
+    margin-right: 0;
+  }
 }

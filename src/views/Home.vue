@@ -6,7 +6,7 @@
       <work/>
       <who/>
       <why/>
-      <contact/>
+      <v-footer/>
     </main>
   </div>
 </template>
@@ -17,7 +17,7 @@
   import Work from '../components/Work.vue'
   import Who from '../components/Who.vue'
   import Why from '../components/Why.vue'
-  import Contact from '../components/Contact.vue'
+  import VFooter from '../components/VFooter.vue'
 
   export default {
     name: 'Home',
@@ -27,7 +27,7 @@
       Work,
       Who,
       Why,
-      Contact
+      VFooter
     }
   }
 </script>

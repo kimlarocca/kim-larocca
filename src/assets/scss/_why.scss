@@ -1,17 +1,53 @@
 #why {
-  .kim {
-    color: #fff;
+  .diagonal {
+    background: linear-gradient(53deg, white calc(55% - 1px), $dark-gray 45%);
+    transition: $transition;
   }
-  .bs_row {
+
+  h2,
+  h3,
+  p {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+  }
+
+  .button {
+    border: solid 1px $dark-gray;
+    background-color: white;
+    color: $dark-gray !important;
+  }
+
+  .kim {
+    color: white;
+  }
+
+  .testimonials {
+    .bs_one {
+      margin-bottom: 30px;
+      padding: 0 80px;
+      @media all and (max-width: $breakpoint-mobile) {
+        padding: 0;
+      }
+    }
+  }
+
+  .logos {
     flex-wrap: wrap;
     max-width: 100%;
+
     .bs_one {
       flex-basis: 90px;
-      padding: 20px;
       justify-content: center;
+      padding: 2rem;
       @media all and (max-width: $breakpoint-mobile) {
         padding: 10px;
         flex-basis: auto;
+      }
+
+      &.logo {
+        margin: 1rem;
+        padding: .5rem;
+        background: white;
       }
     }
   }

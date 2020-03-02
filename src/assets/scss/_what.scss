@@ -1,9 +1,21 @@
 #what {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,e1e8ef+100 */
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #ffffff 50%, $primary-color 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #ffffff 50%, $primary-color 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #ffffff 50%, $primary-color 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(125deg, white calc(50% - 1px), $dark-gray 50%);
+  h2,
+  p {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+  }
+  h2 {
+    width: 75%;
+    max-width: 100%;
+    text-align: right;
+    margin-left: auto;
+    @media all and (max-width: $breakpoint-mobile) {
+      width: 100%;
+      text-align: center;
+      margin-right: auto;
+    }
+  }
   .bs_one {
     margin-bottom: 30px;
     padding: 0 80px;
