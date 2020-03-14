@@ -21,6 +21,13 @@
     "description": "Happy Places, a responsive e-commerce Micro-Destination, featured an interactive parallax experience with CSS animations, full screen image sliders, responsive tooltips and lightboxes."
   },
   {
+    "name": "Wyndham Worldwide",
+    "image": "http://www.kimlarocca.com/images/portfolio/wyndham.jpg",
+    "url": "http://www.kimlarocca.com/images/showcase-wyndham.jpg",
+    "category": "healthcare",
+    "description": "Real-time data visualization app built with Vue and Firebase for Wyndham Worldwide's revenue management department. Features an interactive chart and filtering system."
+  },
+  {
     "name": "Uncommon Obesity",
     "image": "http://www.kimlarocca.com/images/portfolio/obesity.jpg",
     "url": "http://www.kimlarocca.com/images/showcase-obesity.jpg",
@@ -117,12 +124,5 @@
     "url": "http://www.kimlarocca.com/images/showcase-pdr.jpg",
     "category": "creative",
     "description": "A responsive web design with strong typography and a full-screen menu overlay. PoleDanceRevolution.com is an informational website featuring Pinterest & Vimeo API integration. Devops were included in this project as well (MediaTemple servers)."
-  },
-  {
-    "name": "Tri Com Research",
-    "image": "http://www.kimlarocca.com/images/portfolio/tricom.jpg",
-    "url": "http://www.kimlarocca.com/images/showcase-tricomresearch.jpg",
-    "category": "small-business",
-    "description": "Responsive web design and development using PHP, Twitter Bootstrap with a custom CMS and mysql database."
   }
 ]
