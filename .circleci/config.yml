@@ -7,16 +7,16 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - add_ssh_keys:
+        fingerprints:
+          - "b7:7b:56:37:97:40:5b:f9:76:71:14:5f:bb:39:8e:df"
       - run: git reset --hard
       - run: git pull
       - node/with-cache:
           steps:
             - run: npm install
             - run: npm run build
-      - add_ssh_keys:
-          fingerprints:
-            - "53:e9:1a:71:cf:11:fd:ac:21:d2:b9:fb:dd:33:0d:b9"
-      - run: scp -r -o StrictHostKeyChecking=no */ root@198.211.112.212:/var/www/kim-larocca/
+      - run: ssh -i root@198.211.112.212
 workflows:
   build:
     jobs:
