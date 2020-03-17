@@ -7,6 +7,8 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - git reset --hard
+      - git pull
       - node/with-cache:
           steps:
             - run: npm install
