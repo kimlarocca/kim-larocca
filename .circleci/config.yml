@@ -12,7 +12,11 @@ jobs:
             - "b7:7b:56:37:97:40:5b:f9:76:71:14:5f:bb:39:8e:df"
       - run: git reset --hard
       - run: git pull
-      - run: ssh root@198.211.112.212
+      - node/with-cache:
+            steps:
+              - run: npm install
+              - run: npm run build
+      - run: scp -r kim-larocca/* root@198.211.112.212:/var/www/kim-larocca/
 workflows:
   build:
     jobs:
