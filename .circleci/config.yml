@@ -6,7 +6,9 @@ jobs:
     executor:
       name: node/default
     steps:
-      - git pull
+      - checkout
+      - run: git reset --hard
+      - run: git pull
       - node/with-cache:
           steps:
             - run: npm install
