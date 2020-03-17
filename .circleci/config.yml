@@ -6,8 +6,7 @@ jobs:
     executor:
       name: node/default
     steps:
-      - checkout
-      - git reset --hard
+      - checkout master
       - git pull
       - node/with-cache:
           steps:
