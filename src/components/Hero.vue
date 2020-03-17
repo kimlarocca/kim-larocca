@@ -2,7 +2,7 @@
   <section id="home">
     <h1><img id="hero" src="/images/hero.jpg" alt="Kim LaRocca :: Web Design, Web Development, DevOps"/></h1>
     <div class="container tagline">
-      <h2>developer / rockstar**</h2>
+      <h2>developer / rockstar*</h2>
       <h2>*developers don't have a definition</h2>
       <p>"Kim is the person you can count on to lead, motivate, and make sure that your team not only makes it
         to the finish line of any technical project but truly grows on the way there."</p>
