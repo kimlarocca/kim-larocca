@@ -16,7 +16,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm run build
-      - run: scp -r kim-larocca/* root@198.211.112.212:/var/www/kim-larocca/
+      - run: scp -r -o StrictHostKeyChecking=no kim-larocca/* root@198.211.112.212:/var/www/kim-larocca/
 workflows:
   build:
     jobs:
