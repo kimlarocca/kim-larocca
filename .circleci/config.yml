@@ -2,14 +2,14 @@ version: 2.1
 orbs:
   node: circleci/node@1.1.6
 jobs:
-  build-and-test:
+  build:
     executor:
       name: node/default
     steps:
       - checkout
       - add_ssh_keys:
             fingerprints:
-              - "SHA256:iTODn8kc0CdATdssV6SG1hgMht0Xdgb3jy3/9+Ep7Ek"
+              - "53:e9:1a:71:cf:11:fd:ac:21:d2:b9:fb:dd:33:0d:b9"
       - run: git reset --hard
       - run: git pull
       - node/with-cache:
@@ -18,6 +18,6 @@ jobs:
             - run: npm run build
       - run: scp -r kim-larocca/* root@198.211.112.212:/var/www/kim-larocca/
 workflows:
-  build-and-test:
+  build:
     jobs:
-      - build-and-test
+      - build
