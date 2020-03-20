@@ -1,6 +1,6 @@
 <template>
   <section id="home">
-    <h1><img id="hero" src="/images/hero.jpg" alt="Kim LaRocca :: Web Design, Web Development, DevOps"/></h1>
+    <div id="hero"></div>
     <div class="container tagline">
       <h2>developer / rockstar**</h2>
       <h2>*developers don't have a definition</h2>
