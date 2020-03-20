@@ -1,126 +1,126 @@
 [
   {
     "name": "Toys\"R\"Us Product Engine",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/tru_rapq1d.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/tru_rapq1d.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-toys.jpg",
     "category": "ecommerce",
     "description": "The Toys\"R\"Us Product Engine was a responsive web application featuring dynamic filtering which had an 18.6% increase in conversion rate and did over 5.2MM in revenue, an increase of over 3MM from the previous year's landing page."
   },
   {
     "name": "San Francisco Symphony",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/sanfran_usdfzm.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/sanfran_usdfzm.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-sanfran.jpg",
     "category": "ecommerce",
     "description": "The San Francisco Symphony project included frontend development using Vue.js to build out a complete component library as well as Algolia integration for their new, interactive events calendar."
   },
   {
     "name": "Babies\"R\"Us Happy Places",
-    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/bru_xxkcos.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/bru_xxkcos.jpg",
     "image": "https://www.kimlarocca.com/images/showcase-bru.jpg",
     "category": "ecommerce",
     "description": "Happy Places, a responsive e-commerce Micro-Destination, featured an interactive parallax experience with CSS animations, full screen image sliders, responsive tooltips and lightboxes."
   },
   {
     "name": "Wyndham Worldwide",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/wyndham_ar9ybf.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/wyndham_ar9ybf.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-wyndham.jpg",
     "category": "healthcare",
     "description": "Real-time data visualization app built with Vue and Firebase for Wyndham Worldwide's revenue management department. Features an interactive chart and filtering system."
   },
   {
     "name": "Uncommon Obesity",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/obesity_fchs97.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/obesity_fchs97.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-obesity.jpg",
     "category": "healthcare",
     "description": "An unbranded website done for Rhythm Pharmaceuticals to raise public awareness of uncommon obesity disorders. Built with Laravel and Vue."
   },
   {
     "name": "Eleven Eleven",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/11xi_gownmg.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/11xi_gownmg.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-elevenXi.jpg",
     "category": "small-business",
     "description": "Eleven Eleven is a lifestyle cannabis company located in Southern Oregon. Frontend web development using Vue.js featuring a custom marijuana filtering system."
   },
   {
     "name": "Elpis Pharmaceuticals",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/elpis_fcz9r6.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/elpis_fcz9r6.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-elpis.jpg",
     "category": "healthcare",
     "description": "Elpis Pharmaceuticals completely re-branded their business including logo design, web design and other printed materials. The website features an animated hero and was developed complete with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
   },
   {
     "name": "VBrick",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/vbrick_gdtrau.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/vbrick_gdtrau.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-vbrick.jpg",
     "category": "tech",
     "description": "Frontend and backend development for the new VBrick website. The new site was built with Wordpress and features custom react gutenberg components."
   },
   {
     "name": "Toys\"R\"Us Great Deals Store",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/tru2_l4sszw.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/tru2_l4sszw.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-toys-deals.jpg",
     "category": "ecommerce",
     "description": "This mobile friendly web store launched on the ToysRUs and BabiesRUs website on 10/9/15. It was powered by a custom web application built to improve cross functional efficiency that reduced the digital department headcount by 2 FTEs. In addition to internal time savings, the Great Deals Store generated over 30MM during the first few months it went live."
   },
   {
     "name": "Luye Pharmaceuticals",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/luye_nzubri.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/luye_nzubri.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-luye.jpg",
     "category": "healthcare",
     "description": "The Luye Pharmaceuticals website features a cutting edge design to match its cutting edge technology, and the website was developed with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
   },
   {
     "name": "Ion Learning",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/ion_dktom9.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/ion_dktom9.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-mentoring.jpg",
     "category": "education",
     "description": "Ion Learning needed a scalable and sustainable technological solution for creating inclusive workplace cultures, and is the world’s first 'Learning and Mentoring Management System'. Designed and developed using Laravel and mysql. Devops also were included in this project (Google cloud servers and continuous integration pipelines)."
   },
   {
     "name": "TeamLogic IT",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/teamlogic_pluei0.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/teamlogic_pluei0.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-teamlogic.jpg",
     "category": "tech",
     "description": "Frontend web development for the TeamLogic redesign. A complete component library was built with Vue, as well as custom, dynamic filtering systems for the careers and resources pages (also built with Vue)."
   },
   {
     "name": "Real Estate",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/realestate_w768ko.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/realestate_w768ko.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-realestate.jpg",
     "category": "real-estate",
     "description": "Responsive websites for realtors and brokers, with a custom CMS for managing website content, listings and photos. Dev ops were included in this project as all of the real estate websites are hosted and maintained as well."
   },
   {
     "name": "S&A Solutions",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/sasolutions_iegjot.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/sasolutions_iegjot.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-sa.jpg",
     "category": "small-business",
     "description": "S&A Solutions' website fully automates its staffing business. Built using Laravel and mysql, job seekers can search for and apply for jobs. Employers can log in, post jobs, and view applicants. S&A staff members can manage all aspects of the site including job seekers, employers, and users as well as generate reports. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
   },
   {
     "name": "Slate It",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/slateit_qqnqif.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/slateit_qqnqif.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-slateit.jpg",
     "category": "ecommerce",
     "description": "Web-based software for gyms, fitness centers & dance studios custom built using PHP, mySQL and the PayPal API. Devops were included in this project as well (MediaTemple servers)."
   },
   {
     "name": "Vasculogic",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736146/kimlarocca/portfolio/vasculogic_ryfds8.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736146/kimlarocca/portfolio/vasculogic_ryfds8.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-vasculogic.jpg",
     "category": "healthcare",
     "description": "Responsive website featuring moving geometric backgrounds, full-width video backgrounds, and a mobile-friendly multi-level push menu. Logo and other presentation materials were designed as well. Devops were included in this project (MediaTemple servers)."
   },
   {
     "name": "Abbvie iOS App",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/abbvie_er6c4p.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/abbvie_er6c4p.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-abbvie.jpg",
     "category": "healthcare",
     "description": "iPad app for Abbvie Oncology. Displays drug information, clinical trials and videos so pharmaceutical sales reps have all the information they need when meeting with doctors."
   },
   {
     "name": "Pole Dance Revolution",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736145/kimlarocca/portfolio/pdr_hpaznb.jpg",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/pdr_hpaznb.jpg",
     "url": "https://www.kimlarocca.com/images/showcase-pdr.jpg",
     "category": "creative",
     "description": "A responsive web design with strong typography and a full-screen menu overlay. PoleDanceRevolution.com is an informational website featuring Pinterest & Vimeo API integration. Devops were included in this project as well (MediaTemple servers)."
