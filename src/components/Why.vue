@@ -78,7 +78,7 @@
               <template v-else>there's too many reviews!</template>
             </a>
           </div>
-          <v-spacer v-show="!showReviews" size="100px"></v-spacer>
+          <v-spacer v-if="!showReviews" size="100px"></v-spacer>
 
         </div>
       </section>
@@ -86,7 +86,7 @@
     <section class="bs_padding0">
       <div class="container">
         <transition name="slide-fade">
-          <reviews v-show="showReviews"/>
+          <reviews v-if="showReviews"/>
         </transition>
       </div>
     </section>
