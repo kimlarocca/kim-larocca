@@ -40,7 +40,7 @@
             </p>
             <v-spacer/>
             <div class="bs_centeredOnMobile">
-              <a class="button" target="_blank"
+              <a class="button" target="_blank" rel="noreferrer"
                  href="https://www.linkedin.com/in/kimlarocca/">view my resume on linkedin</a>
             </div>
           </div>
