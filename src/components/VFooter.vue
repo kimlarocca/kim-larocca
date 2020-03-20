@@ -21,7 +21,7 @@
           </a>
         </div>
         <div class="icon">
-          <a href="https://www.linkedin.com/in/kimlarocca/" target="_blank" aria-label="linkedin link">
+          <a href="https://www.linkedin.com/in/kimlarocca/" rel="noreferrer" target="_blank" aria-label="linkedin link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                  viewBox="0 0 32 32">
               <title>linkedin</title>
@@ -31,7 +31,7 @@
           </a>
         </div>
         <div class="icon">
-          <a href="https://github.com/kimlarocca" target="_blank" aria-label="github link">
+          <a href="https://github.com/kimlarocca" rel="noreferrer" target="_blank" aria-label="github link">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                  viewBox="0 0 32 32">
               <title>github</title>
@@ -41,7 +41,7 @@
           </a>
         </div>
         <div class="icon">
-          <a href="https://codepen.io/kimlarocca" target="_blank" aria-label="codepen link">
+          <a href="https://codepen.io/kimlarocca" rel="noreferrer" target="_blank" aria-label="codepen link">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="codepen"
                  class="svg-inline--fa fa-codepen fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 512 512">
