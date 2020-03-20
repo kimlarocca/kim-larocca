@@ -10,7 +10,7 @@
         <div class="cell"></div>
     </div>
     <transition name="slide-fade">
-      <div class="portfolio-item-details" v-show="portfolioItemShow">
+      <div class="portfolio-item-details" v-if="portfolioItemShow">
         <v-spacer size="3rem"></v-spacer>
         <div class="container">
           <div tabindex="0" @click.stop="portfolioItemShow = !portfolioItemShow"
