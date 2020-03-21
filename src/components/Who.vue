@@ -7,7 +7,7 @@
       <div class="bs_row">
         <div class="bs_one bs_margin30">
           <figure>
-            <img src="/images/kim.jpg" alt="photo of kim playing bass guitar and singing">
+            <img src="https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805653/kimlarocca/portfolio/kim_nuoagb.jpg" alt="photo of kim playing bass guitar and singing">
             <figcaption>let's rock</figcaption>
           </figure>
         </div>

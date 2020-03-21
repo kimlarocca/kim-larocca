@@ -1,10 +1,20 @@
 footer {
   width: 100%;
   text-align: right;
-  background: url("/images/contact-background.jpg") center center no-repeat;
+  background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background_cdflhu.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
+
+  @media all and (max-width: $breakpoint-tablet) {
+    background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  @media all and (max-width: $breakpoint-mobile) {
+    background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg") center center no-repeat;
+    background-size: cover;
+  }
 
   a,
   a:visited,
