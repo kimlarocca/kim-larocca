@@ -71,7 +71,8 @@
           </div>
 
           <div class="bs_centered">
-            <a class="button" tabindex="0" @click="showReviews = !showReviews"
+            <a class="button margin-horizontal-05" href="https://managerreadme.com/readme/kimlarocca">View My Manager Readme</a>
+            <a class="button margin-horizontal-05" tabindex="0" @click="showReviews = !showReviews"
                v-on:keypress.enter="showReviews = !showReviews"
                v-on:keypress.space.prevent="showReviews = !showReviews">
               <template v-if="!showReviews">check out more reviews</template>
