@@ -70,11 +70,11 @@
     "description": "The Luye Pharmaceuticals website features a cutting edge design to match its cutting edge technology, and the website was developed with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
   },
   {
-    "name": "Ion Learning",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/ion_dktom9.jpg",
-    "url": "https://www.kimlarocca.com/images/showcase-mentoring.jpg",
-    "category": "education",
-    "description": "Ion Learning needed a scalable and sustainable technological solution for creating inclusive workplace cultures, and is the world’s first 'Learning and Mentoring Management System'. Designed and developed using Laravel and mysql. Devops also were included in this project (Google cloud servers and continuous integration pipelines)."
+    "name": "Vue Search",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1588279932/kimlarocca/portfolio/vue-search-portfolio_zztggt.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1588279715/kimlarocca/portfolio/Vue-Search_gmosts.jpg",
+    "category": "tech",
+    "description": "An open-source UI library for Vue that lets you quickly build an Algolia inspired search interface in your front-end application."
   },
   {
     "name": "TeamLogic IT",
