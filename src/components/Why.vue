@@ -27,6 +27,10 @@
                v-on:keypress.space.prevent="setCategory('tech')">tech</a>
             <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'education'}"
                tabindex="0"
+               @click="setCategory('media')" v-on:keypress.enter="setCategory('media')"
+               v-on:keypress.space.prevent="setCategory('media')">media</a>
+            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'education'}"
+               tabindex="0"
                @click="setCategory('education')" v-on:keypress.enter="setCategory('education')"
                v-on:keypress.space.prevent="setCategory('education')">education</a>
           </div>
@@ -44,14 +48,8 @@
           <div class="bs_row testimonials">
             <div class="bs_one">
               <card
-                title="jason chuon"
-                description="'I hired Kim as a Senior Web Developer at Toys”R”Us. Kim lead many high-profile
-                  development projects to helped to drive user engagement and conversion. Beyond that, Kim
-                  is always looking for ways to apply her programming know-how towards improving the team’s
-                  operation efficiency. She created tools that aided with cross-functional team
-                  collaboration. This had a direct impact to project KPIs. Kim is an asset and would make a great addition to
-                  any company that’s lucky to have
-                  her.'"
+                title="nate landau"
+                description="'Kim's sunny personality and good humor show through in all her interactions within and without the digital team. While she has only worked here for a few months, she has already made herself an indispensible team member who explains the way, leads by example, and listens to all voices. Kim is a not only a great manager, but a fantastic engineer as well. In her brief time at NYPR, she has completed a significant amount of work that has meaningfully moved the ball forward for our projects and code bases. She sets an example of speed and precision with her work.' - Nate Landau, CDO, NYPR"
               />
               <v-spacer size="1rem"></v-spacer>
             </div>
@@ -62,7 +60,7 @@
                   not only encouraged me but empowered me to really grow and sharpen my skills as a
                   developer. Simply put, if you are looking for someone who is more than just a great
                   developer, but a great evangelist and leader, look no further
-                  than Kim Larocca. She is the person you can count on to lead, motivate, and make sure
+                  than Kim LaRocca. She is the person you can count on to lead, motivate, and make sure
                   that your team not only makes it to the finish line of any technical project but truly grow
                   on the way there.'"
               />
@@ -71,7 +69,7 @@
           </div>
 
           <div class="bs_centered">
-            <a class="button margin-horizontal-05" href="https://managerreadme.com/readme/kimlarocca">View My Manager Readme</a>
+            <a class="button margin-horizontal-05" href="https://managerreadme.com/readme/kimlarocca" target="_blank">View My Manager Readme</a>
             <a class="button margin-horizontal-05" tabindex="0" @click="showReviews = !showReviews"
                v-on:keypress.enter="showReviews = !showReviews"
                v-on:keypress.space.prevent="showReviews = !showReviews">
