@@ -2,10 +2,8 @@
   <section id="home">
     <div id="hero"></div>
     <div class="container tagline">
-      <h2>developer / rockstar**</h2>
+      <h2>developer / rockstar*</h2>
       <h2>*developers don't have a definition</h2>
-      <p>"Kim is the person you can count on to lead, motivate, and make sure that your team not only makes it
-        to the finish line of any technical project but truly grows on the way there."</p>
     </div>
     <a href="#what" tabindex="0" class="scroll-down" v-smooth-scroll="{ duration: 1000 }"
        aria-label="scroll down past hero image"></a>

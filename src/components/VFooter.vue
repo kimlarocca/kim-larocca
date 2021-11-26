@@ -4,12 +4,6 @@
     <div class="container">
       <h2>Contact Me</h2>
       <v-spacer size="2rem"></v-spacer>
-      <p class="bs_centeredOnMobile bs_margin20">Yes! I am currently taking on freelance projects for web design & web
-        development.</p>
-      <p class="bs_centeredOnMobile bs_margin20">References are
-        available upon request. More details on website development / app projects are also available
-        upon request.</p>
-      <v-spacer size="2rem"></v-spacer>
       <div class="bs_row bs_centeredOnMobile bs_right">
         <div class="icon">
           <a href="mailto:kim@kimlarocca.com" aria-label="email link">
