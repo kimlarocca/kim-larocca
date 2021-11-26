@@ -11,6 +11,9 @@
       <div class="bubble">This is a killer website! I love it. Great job!
         <small>- Gail Doscher, client</small>
       </div>
+      <div class="bubble">Working with Kim made my time at New York Public Radio infinitely better! From introducing us to Vue.js so we could modernize our stack, taking the time to answer any technical questions or give advice on how to best write computed methods, she was always available without judgement. Kim also helped me a lot with building out my outside of work Vue projects when she didn't have to. Besides being an expert developer, she was also just a really fun and amazing person to work with and the team is better with her on her it.
+        <small>- Seori Sachs, Developer</small>
+      </div>
       <div class="bubble">Thanks so much for your help with this. As always -- YOU'RE AWESOME!!!
         <small>- Arlene Glasco, client</small>
       </div>
@@ -52,6 +55,19 @@
         is AWESOME!
         <small>- Carolyn MacEvoy, client</small>
       </div>
+      <div class="bubble">I've worked closely with Kim on a daily basis on two projects so far - the WNYC.org/radio player redesign and re-platform, and on the Gothamist.com re-platform. She was the lead engineer and direct manager for at least one other team member also contributing to these efforts, and I was the project manager.
+        <br><br>
+        When Kim first arrived, she was faced right away with some management and collaboration challenges she needed to address. I saw her carefully gather data to address these concerns tactfully and honestly, first searching for data to back up the discussion points she was working on. I also saw her observe quietly the early retrospective meetings so she could get an accurate understanding of other peoples' current struggles and triumphs. She's been very fair, and she's still good at deferring to other opinions when needed, allowing others the space to speak to new areas of responsibility and deepen their expertise.
+        <br><br>
+        Kim often provides vocal support for accessibility considerations on our web platforms; most recently, she was able to ensure all pages on the Gothamist site are navigable by screen readers. She's obsessed (in a positive and necessary way!) with optimizing the page speed and load times of Gothamist.com, and recently suggested we do research with our advertising partner to asynchronously advertisements there and save on our page speed indexes. Given a goal metric, Kim is dogged about pushing for it in every way she can think of.
+        <br><br>
+        Kim works with Product managers frequently to break down the implementation steps needed for features Product wants, and is good at speaking to the time and effort also needed to make an idea into reality. She's also very generous with her time for more junior engineers and interns who want to contribute to the Digital team's work. Moreover, she knows when it makes more sense to take a back seat and listen during discussions of systems she's less familiar with, which is a time saver and frequently makes my job much easier.
+        <br><br>
+        Kim is great at follow through and leads by example for team members. I think over the course of her work replatforming Gothamist.com to the Vue front end framework, I had upwards of 5 behavior fixes and very specific, complicated modifications to Home page behavior. She was polite and patient, even when I had to come back with more feedback about something she had just thought she finished. She asked good questions to clarify what I expected, and her determination to get it right paid off!
+        <br><br>
+        Since her arrival at NYPR, Kim's been able to pitch in on a variety of platforms, sites, and systems. She always has a can-do attitude, which is invaluable in situations where morale is tenuous (including the global pandemic we're all still navigating.) I'm excited to see what ideas she has for our upcoming projects, and I'm looking forward to continuing to work with her as we create a long-term vision for NYPR Digital!
+        <small>- Hannah Warren, scrum master</small>
+      </div>
       <div class="bubble">I am delighted with everything you have done. The Architectural Tours turned out great, in
         fact, the entire website is excellent. I am very pleased with it.
         <small>- Jan Hexamer-Gardner, client</small>
@@ -62,6 +78,9 @@
         treat me.
         <small>- Jeff Fulgham, client</small>
       </div>
+      <div class="bubble">It didn’t take long to see that Kim is one of those leaders that makes a meaningful and long lasting impact not only on the team she leads but on any project she works on. She is very knowledgeable and resourceful but what sets her apart from anyone else I’ve worked with is her ability to lead by example, encourage and motivate her team to take any task at hand and use it to learn and improve their skill sets. The impression she leaves is that she is reliable and a valuable asset to any team or project she is involved with.
+        <small>- Andres Arias, developer</small>
+      </div>
       <div class="bubble">WOW!!! You're the Super Best!!! Thank you so much for putting it together so quickly. If I
         had a winning race horse, I would name her KIM!
         <small>- Julia Meadows, client</small>
@@ -69,6 +88,9 @@
       <div class="bubble">You’re awesome – thank you for always being available!!! You are always so wonderful and
         helpful!!!
         <small>- Julie &amp; Ted Hummel, clients</small>
+      </div>
+      <div class="bubble">You rarely come across standout talent like Kim. I have worked closely with Kim during her time at iMedia as Lead Web Developer. She came to the front end team where there wasn’t any structure or process in place. With a couple of weeks, she quickly changed that around and had everyone follow a method for each project moving forward. She had helped complete projects on a timely matter and keeping the stress levels low. She also knowledgable and closely follows the new trends in the web development world. Apart from all the projects she works on, she held weekly lunch & learn to show anyone interested in learning about VueJS. The best thing about Kim is her relaxed attitude and sense of humor coming to work a pleasure. She the best manager I ever had, and anyone who works with her is lucky.
+        <small>- Luis Almonte, developer</small>
       </div>
       <div class="bubble">As usual you are the best!!! I'm very happy with my site, a lot of nice complements, thanks
         to you.
@@ -78,6 +100,9 @@
         your patience and professionalism speaks well for you. I won’t go into details while I expound on the
         variety of services you offer, your consistency and your dedication to support your client needs.
         <small>- Lucille Maddalena, client</small>
+      </div>
+      <div class="bubble">I reported to Kim when we worked at iMedia. She is a rockstar in every sense of the word. I’ve never worked with someone with a broader range of skills and abilities. Kim stays up to date with the very latest developer tools and trends; she shares her expertise with her teams and applies it to meeting and exceeding her clients’ expectations. Her confidence and her sense of humor are contagious and most welcome.
+        <small>- Tom Hackett, digital production coordinator</small>
       </div>
       <div class="bubble">I LOVE MY WEBSITE! You are so creative! Thank you for helping me. I'm so glad I found your
         company.
