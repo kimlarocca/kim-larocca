@@ -1,5 +1,4 @@
 <template>
-
   <div @click="portfolioItemShow = true" v-on:keypress.enter="portfolioItemShow = true"
        v-on:keypress.space.prevent="portfolioItemShow = true" tabindex="0" class="portfolio-item"
        :style="{ backgroundImage: `url('${backgroundImage}')` }">
@@ -21,14 +20,12 @@
           <v-spacer size="2rem"></v-spacer>
           <img :src="image" :alt="title+' screenshot'">
           <v-spacer size="2rem"></v-spacer>
-          <p>{{ description }}</p>
+          <p v-html="description" />
         </div>
         <v-spacer size="3rem"></v-spacer>
       </div>
     </transition>
   </div>
-
-
 </template>
 
 <script>

@@ -1,6 +1,12 @@
 #who {
   position: relative;
 
+  h2,
+  p {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+  }
+
   &:before {
     content: '';
     position: absolute;
@@ -12,8 +18,10 @@
     //background: url("../../assets/white-smoke-background.png") no-repeat top left;
   }
 
-  h2 {
-    text-shadow: 0 0 20px white;
+  .diagonal {
+    // background: linear-gradient(53deg, white calc(55% - 1px), $dark-gray 45.3%);
+    background: linear-gradient(53deg, white, white 55%, $dark-gray calc(45% + 6px), $dark-gray 100%);
+    transition: $transition;
   }
 
   .bs_one {

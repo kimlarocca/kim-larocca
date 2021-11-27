@@ -8,12 +8,8 @@
   h2 {
     width: 75%;
     max-width: 100%;
-    text-align: right;
-    margin-left: auto;
     @media all and (max-width: $breakpoint-mobile) {
       width: 100%;
-      text-align: center;
-      margin-right: auto;
     }
   }
   .bs_one {

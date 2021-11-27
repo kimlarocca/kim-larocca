@@ -1,6 +1,6 @@
 <template>
   <div id="why">
-    <div class="diagonal">
+    <div>
       <section>
         <div class="container">
           <v-spacer size="100px"></v-spacer>
@@ -11,28 +11,32 @@
           <v-spacer size="2rem"></v-spacer>
 
           <div class="bs_centeredOnMobile">
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'all'}" tabindex="0"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'all'}" tabindex="0"
                @click="setCategory('all')" v-on:keypress.enter="setCategory('all')"
                v-on:keypress.space.prevent="setCategory('all')">all</a>
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'healthcare'}"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'healthcare'}"
                tabindex="0"
                @click="setCategory('healthcare')" v-on:keypress.enter="setCategory('healthcare')"
                v-on:keypress.space.prevent="setCategory('healthcare')">healthcare</a>
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'ecommerce'}"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'ecommerce'}"
                tabindex="0"
                @click="setCategory('ecommerce')" v-on:keypress.enter="setCategory('ecommerce')"
                v-on:keypress.space.prevent="setCategory('ecommerce')">ecommerce</a>
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'tech'}" tabindex="0"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'tech'}" tabindex="0"
                @click="setCategory('tech')" v-on:keypress.enter="setCategory('tech')"
                v-on:keypress.space.prevent="setCategory('tech')">tech</a>
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'education'}"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'media'}"
                tabindex="0"
                @click="setCategory('media')" v-on:keypress.enter="setCategory('media')"
                v-on:keypress.space.prevent="setCategory('media')">media</a>
-            <a class="button bs_margin20 bs_marginRight1" :class="{'inactive': logoCategory !== 'education'}"
+            <a class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === 'education'}"
                tabindex="0"
                @click="setCategory('education')" v-on:keypress.enter="setCategory('education')"
                v-on:keypress.space.prevent="setCategory('education')">education</a>
+            <a v-if="logoCategory !== ''" class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === ''}"
+               tabindex="0"
+               @click="setCategory('')" v-on:keypress.enter="setCategory('')"
+               v-on:keypress.space.prevent="setCategory('')">none</a>
           </div>
 
           <div class="bs_row logos">
