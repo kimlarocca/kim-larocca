@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <v-spacer size="100px"></v-spacer>
+    <v-spacer size="200px"></v-spacer>
     <div class="container">
       <h2>Contact Me</h2>
       <v-spacer size="2rem"></v-spacer>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <canvas id="canvas"></canvas>
-    <v-spacer size="100px"></v-spacer>
+    <v-spacer size="200px"></v-spacer>
   </footer>
 </template>
 

@@ -22,7 +22,9 @@ footer {
     color: white;
     text-decoration: underline;
     opacity: 1;
-    &:hover {
+    &:hover,
+    &:focus {
+      outline: none;
       color: white;
       text-decoration: underline;
       opacity: .8;
