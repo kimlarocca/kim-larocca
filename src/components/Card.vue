@@ -6,7 +6,7 @@
       <v-spacer v-if="hasImage"/>
       <figcaption>{{ title }}</figcaption>
     </figure>
-    <p>{{ description }}</p>
+    <p v-html="description" />
   </div>
 
 </template>

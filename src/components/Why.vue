@@ -36,7 +36,7 @@
             <a v-if="logoCategory !== ''" class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === ''}"
                tabindex="0"
                @click="setCategory('')" v-on:keypress.enter="setCategory('')"
-               v-on:keypress.space.prevent="setCategory('')">none</a>
+               v-on:keypress.space.prevent="setCategory('')">hide</a>
           </div>
 
           <div class="bs_row logos">
@@ -52,17 +52,17 @@
           <div class="bs_row testimonials">
             <div class="bs_one">
               <card
-                title="nate landau"
-                description="'Kim's sunny personality and good humor show through in all her interactions within and without the digital team. While she has only worked here for a few months, she has already made herself an indispensible team member who explains the way, leads by example, and listens to all voices. Kim is a not only a great manager, but a fantastic engineer as well. In her brief time at NYPR, she has completed a significant amount of work that has meaningfully moved the ball forward for our projects and code bases. She sets an example of speed and precision with her work.' - Nate Landau, CDO, NYPR"
+                title="nate landau, cdo"
+                description="'Kim's sunny personality and good humor show through in all her interactions within and without the digital team. While she has only worked here for a few months, she has already made herself an indispensible team member who explains the way, leads by example, and listens to all voices.<br><br>Kim is a not only a great manager, but a fantastic engineer as well. In her brief time at NYPR, she has completed a significant amount of work that has meaningfully moved the ball forward for our projects and code bases. She sets an example of speed and precision with her work.'"
               />
               <v-spacer size="1rem"></v-spacer>
             </div>
             <div class="bs_one">
               <card
-                title="george ulloa"
+                title="george ulloa, dev"
                 description="'As Director of Development for my team at W2O, Kim
                   not only encouraged me but empowered me to really grow and sharpen my skills as a
-                  developer. Simply put, if you are looking for someone who is more than just a great
+                  developer.<br><br>Simply put, if you are looking for someone who is more than just a great
                   developer, but a great evangelist and leader, look no further
                   than Kim LaRocca. She is the person you can count on to lead, motivate, and make sure
                   that your team not only makes it to the finish line of any technical project but truly grow
