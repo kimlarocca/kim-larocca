@@ -33,17 +33,15 @@
                tabindex="0"
                @click="setCategory('education')" v-on:keypress.enter="setCategory('education')"
                v-on:keypress.space.prevent="setCategory('education')">education</a>
-            <a v-if="logoCategory !== ''" class="button category bs_margin20 bs_marginRight1" :class="{'active': logoCategory === ''}"
-               tabindex="0"
-               @click="setCategory('')" v-on:keypress.enter="setCategory('')"
-               v-on:keypress.space.prevent="setCategory('')">hide</a>
           </div>
 
-          <div class="bs_row logos">
-            <div v-for="(logo, index) in filteredLogos" :key="index" class="bs_one logo">
-              <img :src="logo.url" :alt="logo.name + ' logo'">
+          <transition name="slide-fade">
+            <div v-if="logoCategory" class="bs_row logos">
+              <div v-for="(logo, index) in filteredLogos" :key="index" class="bs_one logo">
+                <img :src="logo.url" :alt="logo.name + ' logo'">
+              </div>
             </div>
-          </div>
+          </transition>
 
           <v-spacer size="50px"></v-spacer>
           <h3 class="bs_centeredOnMobile">Reviews:</h3>
@@ -117,7 +115,14 @@
     },
     methods: {
       setCategory (category) {
-        this.logoCategory = category
+        if (category === this.logoCategory) {
+          this.logoCategory = ''
+        } else {
+          this.logoCategory = ''
+          this.$nextTick(() => {
+            this.logoCategory = category
+          })
+        }
       }
     },
     computed: {
