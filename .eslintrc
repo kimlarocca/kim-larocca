@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": ["@nuxtjs", "plugin:nuxt/recommended"],
+  // add your custom rules here
+  "rules": {
+    // we trust the content from our API so we can safely ignore these warnings
+    "vue/no-v-html": 0,
+    "vue/html-self-closing": 0,
+    "vue/space-before-function-paren": 0,
+    "space-before-function-paren": 0
+  }
+}
