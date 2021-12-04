@@ -3,6 +3,7 @@
     border: solid 1px $dark-gray;
     background-color: white;
     color: $dark-gray;
+    margin: 5px;
   
     &.active {
       background: $dark-gray;
@@ -44,7 +45,7 @@
 
       &.logo {
         margin: 1rem;
-        padding: .5rem;
+        padding: 5px;
         background: white;
       }
     }

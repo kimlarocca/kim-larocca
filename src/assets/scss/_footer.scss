@@ -1,21 +1,21 @@
 footer {
   width: 100%;
   text-align: right;
-  background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background_cdflhu.jpg") center center no-repeat;
+  background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background_cdflhu.jpg')
+    center center no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
-
   @media all and (max-width: $breakpoint-tablet) {
-    background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg") center center no-repeat;
+    background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg')
+      center center no-repeat;
     background-size: cover;
   }
-
   @media all and (max-width: $breakpoint-mobile) {
-    background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg") center center no-repeat;
+    background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg')
+      center center no-repeat;
     background-size: cover;
   }
-
   a,
   a:visited,
   a:active {
@@ -27,21 +27,26 @@ footer {
       outline: none;
       color: white;
       text-decoration: underline;
-      opacity: .8;
+      opacity: 0.8;
     }
   }
-
   h2,
   p {
     color: white;
   }
-
+  .container {
+    @media all and (max-width: $breakpoint-mobile) {
+      width: fit-content;
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+    }
+  }
   .bs_row {
     @media all and (max-width: $breakpoint-mobile) {
       flex-direction: row;
     }
   }
-
   .icon {
     display: inline-block;
     margin-right: 20px;
@@ -51,8 +56,6 @@ footer {
         margin-right: 0;
       }
     }
-
-
     svg {
       stroke-width: 0;
       fill: white;
@@ -60,14 +63,12 @@ footer {
       height: 2rem;
       opacity: 1;
       transition: $transition;
-
       &:hover {
-        opacity: .8;
+        opacity: 0.8;
         cursor: pointer;
       }
     }
   }
-
   canvas {
     position: absolute;
     width: 100%;
