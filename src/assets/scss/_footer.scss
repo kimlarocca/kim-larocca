@@ -8,12 +8,13 @@ footer {
   overflow: hidden;
   @media all and (max-width: $breakpoint-tablet) {
     background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg')
-      center center no-repeat;
+      center bottom no-repeat;
     background-size: cover;
+    text-align: center;
   }
   @media all and (max-width: $breakpoint-mobile) {
     background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg')
-      center center no-repeat;
+      center bottom no-repeat;
     background-size: cover;
   }
   a,
@@ -34,26 +35,20 @@ footer {
   p {
     color: white;
   }
-  .container {
-    @media all and (max-width: $breakpoint-mobile) {
-      width: fit-content;
-      position: absolute;
-      bottom: 40px;
-      right: 40px;
-    }
-  }
   .bs_row {
-    @media all and (max-width: $breakpoint-mobile) {
-      flex-direction: row;
-    }
+    flex-direction: row;
   }
   .icon {
     display: inline-block;
     margin-right: 20px;
     z-index: 10;
     &:last-of-type {
-      @media all and (max-width: $breakpoint-mobile) {
-        margin-right: 0;
+      margin-right: 0;
+    }
+    @media all and (max-width: $breakpoint-mobile) {
+      margin: 0 10px;
+      &:last-of-type {
+        margin-right: 10px;
       }
     }
     svg {
