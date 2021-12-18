@@ -140,10 +140,10 @@
     "description": "iPad app for Abbvie Oncology. Displays drug information, clinical trials and videos so pharmaceutical sales reps have all the information they need when meeting with doctors."
   },
   {
-    "name": "Pole Dance Revolution",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/pdr_hpaznb.jpg",
-    "url": "https://www.kimlarocca.com/images/showcase-pdr.jpg",
-    "category": "creative",
-    "description": "A responsive web design with strong typography and a full-screen menu overlay. PoleDanceRevolution.com is an informational website featuring Pinterest & Vimeo API integration. Devops were included in this project as well (MediaTemple servers)."
+    "name": "Purdue University",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1639847634/kimlarocca/portfolio/purdue_wwvvzh.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1639847637/kimlarocca/portfolio/purdue-showcase_w5sjnk.png",
+    "category": "education",
+    "description": "Frontend development for Purdue University's online recruitment website, which was integrated with their Sitecore backend and CMS."
   }
 ]
