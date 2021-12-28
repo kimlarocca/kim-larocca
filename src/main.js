@@ -1,7 +1,7 @@
-import Vue from 'vue'
+import './assets/scss/main.scss'
 import App from './App.vue'
 import router from './router'
-import './assets/scss/main.scss'
+import Vue from 'vue'
 import vueSmoothScroll from 'vue2-smooth-scroll'
 
 Vue.use(vueSmoothScroll)
