@@ -54,10 +54,22 @@ export default {
     }
   },
   props: {
-    title: String,
-    image: String,
-    description: String,
-    backgroundImage: String
+    title: {
+      type: String,
+      default: ''
+    },
+    image: {
+      type: String,
+      default: ''
+    },
+    description: {
+      type: String,
+      default: ''
+    },
+    backgroundImage: {
+      type: String,
+      default: ''
+    }
   }
 }
 </script>
