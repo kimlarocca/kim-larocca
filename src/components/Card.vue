@@ -14,26 +14,26 @@ import VSpacer from './VSpacer'
 export default {
   name: 'Card',
   components: {
-    VSpacer
+    VSpacer,
   },
   props: {
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     image: {
       type: String,
-      default: ''
+      default: '',
     },
     description: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
   computed: {
     hasImage() {
       return !!this.$props.image
-    }
-  }
+    },
+  },
 }
 </script>

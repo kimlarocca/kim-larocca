@@ -1,74 +1,18 @@
-footer {
-  width: 100%;
-  text-align: right;
-  background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background_cdflhu.jpg')
-    center center no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  @media all and (max-width: $breakpoint-tablet) {
-    background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg')
-      center bottom no-repeat;
-    background-size: cover;
-    text-align: center;
-  }
-  @media all and (max-width: $breakpoint-mobile) {
-    background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg')
-      center bottom no-repeat;
-    background-size: cover;
-  }
-  a,
-  a:visited,
-  a:active {
-    color: white;
-    text-decoration: underline;
-    opacity: 1;
-    &:hover,
-    &:focus {
-      outline: none;
-      color: white;
-      text-decoration: underline;
-      opacity: 0.8;
-    }
-  }
-  h2,
-  p {
-    color: white;
-  }
-  .bs_row {
-    flex-direction: row;
-  }
-  .icon {
-    display: inline-block;
-    margin-right: 20px;
-    z-index: 10;
-    &:last-of-type {
-      margin-right: 0;
-    }
-    @media all and (max-width: $breakpoint-mobile) {
-      margin: 0 10px;
-      &:last-of-type {
-        margin-right: 10px;
-      }
-    }
-    svg {
-      stroke-width: 0;
-      fill: white;
-      width: 2rem;
-      height: 2rem;
-      opacity: 1;
-      transition: $transition;
-      &:hover {
-        opacity: 0.8;
-        cursor: pointer;
-      }
-    }
-  }
-  canvas {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-}
+footer { width: 100%; text-align: right; background:
+url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background_cdflhu.jpg')
+center center no-repeat; background-size: cover; position: relative; overflow:
+hidden; @media all and (max-width: $breakpoint-tablet) { background:
+url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-tablet_gwxzor.jpg')
+center bottom no-repeat; background-size: cover; text-align: center; } @media
+all and (max-width: $breakpoint-mobile) { background:
+url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805870/kimlarocca/portfolio/contact-background-mobile_ppbsd5.jpg')
+center bottom no-repeat; background-size: cover; } a, a:visited, a:active {
+color: white; text-decoration: underline; opacity: 1; &:hover, &:focus {
+outline: none; color: white; text-decoration: underline; opacity: 0.8; } } h2, p
+{ color: white; } .bs_row { flex-direction: row; } .icon { display:
+inline-block; margin-right: 20px; z-index: 10; &:last-of-type { margin-right: 0;
+} @media all and (max-width: $breakpoint-mobile) { margin: 0 10px;
+&:last-of-type { margin-right: 10px; } } svg { stroke-width: 0; fill: white;
+width: 2rem; height: 2rem; opacity: 1; transition: $transition; &:hover {
+opacity: 0.8; cursor: pointer; } } } canvas { position: absolute; width: 100%;
+height: 100%; top: 0; left: 0; } }
