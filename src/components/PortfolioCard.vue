@@ -46,30 +46,30 @@ import VSpacer from './VSpacer'
 export default {
   name: 'PortfolioCard',
   components: {
-    VSpacer
+    VSpacer,
   },
   data() {
     return {
-      portfolioItemShow: false
+      portfolioItemShow: false,
     }
   },
   props: {
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     image: {
       type: String,
-      default: ''
+      default: '',
     },
     description: {
       type: String,
-      default: ''
+      default: '',
     },
     backgroundImage: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 }
 </script>
