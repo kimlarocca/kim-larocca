@@ -150,17 +150,17 @@ export default {
   components: {
     Reviews,
     Card,
-    VSpacer
+    VSpacer,
   },
-  data () {
+  data() {
     return {
       logos: logos,
       logoCategory: '',
-      showReviews: false
+      showReviews: false,
     }
   },
   methods: {
-    setCategory (category) {
+    setCategory(category) {
       if (category === this.logoCategory) {
         this.logoCategory = ''
       } else {
@@ -169,19 +169,21 @@ export default {
           this.logoCategory = category
         })
       }
-    }
+    },
   },
   computed: {
-    filteredLogos () {
+    filteredLogos() {
       if (this.logoCategory === '') {
         return []
       }
-      return this.logoCategory === 'all' ? this.logos : this.logos.filter(logo => {
-          return logo.category
-            .toLowerCase()
-            .includes(this.logoCategory.toLowerCase())
-        });
-    }
-  }
+      return this.logoCategory === 'all'
+        ? this.logos
+        : this.logos.filter((logo) => {
+            return logo.category
+              .toLowerCase()
+              .includes(this.logoCategory.toLowerCase())
+          })
+    },
+  },
 }
 </script>
