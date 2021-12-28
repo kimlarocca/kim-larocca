@@ -175,15 +175,11 @@ export default {
       if (this.logoCategory === '') {
         return []
       }
-      if (this.logoCategory === 'all') {
-        return this.logos
-      } else {
-        return this.logos.filter(logo => {
+      return this.logoCategory === 'all' ? this.logos : this.logos.filter(logo => {
           return logo.category
             .toLowerCase()
             .includes(this.logoCategory.toLowerCase())
-        })
-      }
+        });
     }
   }
 }
