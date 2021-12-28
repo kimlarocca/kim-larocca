@@ -112,6 +112,7 @@
               class="button margin-horizontal-05"
               href="https://managerreadme.com/readme/kimlarocca"
               target="_blank"
+              rel="noopener noreferrer"
               >View My Manager Readme</a
             >
             <a

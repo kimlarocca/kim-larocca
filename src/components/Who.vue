@@ -45,7 +45,7 @@
                 <a
                   class="button"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/kimlarocca/"
                 >view my resume on linkedin</a>
               </div>

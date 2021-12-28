@@ -24,7 +24,7 @@
         <div class="icon">
           <a
             href="https://www.linkedin.com/in/kimlarocca/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
             aria-label="linkedin link"
           >
@@ -45,7 +45,7 @@
         <div class="icon">
           <a
             href="https://github.com/kimlarocca"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
             aria-label="github link"
           >
@@ -66,7 +66,7 @@
         <div class="icon">
           <a
             href="https://codepen.io/kimlarocca"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
             aria-label="codepen link"
           >
