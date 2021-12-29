@@ -1,25 +1,5 @@
-#what {
-  background: linear-gradient(125deg, white calc(50% - 1px), $dark-gray 50%);
-  h2,
-  p {
-    color: rgb(255, 255, 255);
-    mix-blend-mode: difference;
-  }
-  h2 {
-    width: 75%;
-    max-width: 100%;
-    @media all and (max-width: $breakpoint-mobile) {
-      width: 100%;
-    }
-  }
-  .bs_one {
-    margin-bottom: 30px;
-    padding: 0 80px;
-    p {
-      margin-top: 15px;
-    }
-    @media all and (max-width: $breakpoint-mobile) {
-      padding: 0;
-    }
-  }
-}
+#what { background: linear-gradient(125deg, white calc(50% - 1px), $dark-gray
+50%); h2, p { color: rgb(255, 255, 255); mix-blend-mode: difference; } h2 {
+width: 75%; max-width: 100%; @media all and (max-width: $breakpoint-mobile) {
+width: 100%; } } .bs_one { margin-bottom: 30px; padding: 0 80px; p { margin-top:
+15px; } @media all and (max-width: $breakpoint-mobile) { padding: 0; } } }

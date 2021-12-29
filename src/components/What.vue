@@ -46,14 +46,14 @@
 </template>
 
 <script>
-  import Card from './Card'
-  import VSpacer from './VSpacer'
+import Card from './Card'
+import VSpacer from './VSpacer'
 
-  export default {
-    name: 'What',
-    components: {
-      Card,
-      VSpacer
-    }
-  }
+export default {
+  name: 'What',
+  components: {
+    Card,
+    VSpacer,
+  },
+}
 </script>
