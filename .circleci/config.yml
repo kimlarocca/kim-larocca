@@ -15,6 +15,7 @@ jobs:
       - run: git pull
       - node/with-cache:
           steps:
+            - run: npm update
             - run: npm install
             - run: npm run build
       - run: scp -r -o StrictHostKeyChecking=no dist/* root@198.211.112.212:/var/www/kim-larocca/dist/
