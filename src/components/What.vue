@@ -53,7 +53,7 @@ export default {
   name: 'What',
   components: {
     Card,
-    VSpacer
-  }
+    VSpacer,
+  },
 }
 </script>
