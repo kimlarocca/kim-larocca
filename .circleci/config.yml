@@ -13,6 +13,7 @@ jobs:
       - run: git reset --hard
       - run: git pull
       - run: npm install
+      - run: npm run lint --fix
       - run: npm run build
       - run: scp -r -o StrictHostKeyChecking=no dist/* root@198.211.112.212:/var/www/kim-larocca/dist/
 workflows:
