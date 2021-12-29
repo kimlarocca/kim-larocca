@@ -9,7 +9,7 @@
           <card
             image="https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805653/kimlarocca/portfolio/design_lkttxc.jpg"
             title="design"
-            description="I like to think of myself as an 'ultra stack' developer (yeah, I made that up). I design award winning, tech driven websites with modern trends in mind."
+            description="I like to think of myself as an 'ultra stack' developer (yes, I made that up). I design award winning, tech driven websites with modern trends in mind."
           />
           <v-spacer size="2rem"></v-spacer>
         </div>
@@ -46,14 +46,14 @@
 </template>
 
 <script>
-  import Card from './Card'
-  import VSpacer from './VSpacer'
+import Card from './Card'
+import VSpacer from './VSpacer'
 
-  export default {
-    name: 'What',
-    components: {
-      Card,
-      VSpacer
-    }
+export default {
+  name: 'What',
+  components: {
+    Card,
+    VSpacer
   }
+}
 </script>
