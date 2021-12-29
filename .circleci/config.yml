@@ -4,7 +4,7 @@ orbs:
 jobs:
   build:
     executor:
-      name: default
+      name: node/default
     steps:
       - checkout
       - add_ssh_keys:
