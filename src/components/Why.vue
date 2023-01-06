@@ -180,7 +180,7 @@ export default {
           return logo.category
             .toLowerCase()
             .includes(this.logoCategory.toLowerCase())
-        });
+        })
     }
   }
 }

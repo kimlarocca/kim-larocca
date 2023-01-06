@@ -7,11 +7,11 @@
     "description": "Kim led the NY Public Radio digital team in building a cutting edge online radio experience for WNYC using Vue & Nuxt. Nuxt did a case study on this project, read more at <a href='https://nuxtjs.org/case-studies/new-york-public-radio' target='_blank'>https://nuxtjs.org/case-studies/new-york-public-radio</a>, or listen to WNYC online at <a href='https://wnyc.org/radio' target='_blank'>https://wnyc.org/radio</a>!"
   },
   {
-    "name": "Equalicert",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1637969084/kimlarocca/portfolio/equalicert_romhcj.png",
-    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1637969084/kimlarocca/portfolio/equalicert-showcase_eudgo8.png",
+    "name": "Equal Time",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1673032774/kimlarocca/portfolio/equal-time-thumbnail_fjtinh.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673032458/kimlarocca/portfolio/Zoom_Screenshot_mx4j8q.jpg",
     "category": "tech",
-    "description": "Equalicert's mission is to make the world more fair, inclusive, and diverse. Kim co-founded this startup and is the acting CTO. She drives all aspects of Engineering, Design and Product, building data visualization dashboards so organizations can see how they perform with regard to diversity, equity, and inclusion. In addition, she assists with fundraising and recruiting. This site was built with a Nuxt/Vue frontend and Node.js backend, with Azure for hosting and DevOps."
+    "description": "Equal Time's mission is to make meetings more inclusive and effective. Kim co-founded this startup and is the acting CTO. She drives all aspects of Engineering, Design and Product, building web apps with data visualization dashboards, chrome extensions and Zoom apps. In addition, she assists with fundraising and recruiting. The websites and Zoom App were built with a Vue frontend and Node.js backend, Supabase, and Azure for hosting and DevOps. Check out Equal Time online at <a href='https://www.equaltime.io/' target='_blank'>https://www.equaltime.io/</a>!"
   },
   {
     "name": "Black Lives Matter",
@@ -19,6 +19,13 @@
     "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1637969272/kimlarocca/portfolio/showcase-blm_of3vxq.jpg",
     "category": "tech",
     "description": "Kim volunteers with Black Lives Matter and creates websites pro bono for local chapters. Shown here is the website for the Morristown, NJ chapter. This project included the design, frontend development using Vue.js, CMS setup and integration using Storyblok, as well as DevOps with Media Temple and CircleCi."
+  },
+  {
+    "name": "Radiolab",
+    "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1673033543/kimlarocca/portfolio/radiolab-thumbnail_yiyiku.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673033432/kimlarocca/portfolio/radolab_rvqqhj.jpg",
+    "category": "media",
+    "description": "Radiolab is a popular podcast that asks deep questions and uses investigative journalism to get the answers. Kim led the NY Public Radio digital team in the development of a new website for Radiolab, built with Nuxt 3, Vue 3, and Algolia for search. Check it out online at <a href='https://radiolab.org' target='_blank'>https://radiolab.org</a>!"
   },
   {
     "name": "Gothamist",
@@ -89,13 +96,6 @@
     "url": "https://www.kimlarocca.com/images/showcase-luye.jpg",
     "category": "healthcare",
     "description": "The Luye Pharmaceuticals website features a cutting edge design to match its cutting edge technology, and the website was developed with a custom CMS. Devops were included in this project as well (AWS servers and continuous integration pipelines)."
-  },
-  {
-    "name": "Vue Search",
-    "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1588279932/kimlarocca/portfolio/vue-search-portfolio_zztggt.jpg",
-    "url": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1588279715/kimlarocca/portfolio/Vue-Search_gmosts.jpg",
-    "category": "tech",
-    "description": "An open-source UI library for Vue that lets you quickly build an Algolia inspired search interface in your front-end application."
   },
   {
     "name": "TeamLogic IT",

@@ -190,6 +190,11 @@
     "category": "healthcare"
   },
   {
+    "name": "radiolab",
+    "url": "https://www.kimlarocca.com/images/logos/radiolab.png",
+    "category": "media"
+  },
+  {
     "name": "rhythm",
     "url": "https://www.kimlarocca.com/images/logos/rhythm.jpg",
     "category": "healthcare"

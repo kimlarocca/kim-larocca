@@ -2,8 +2,8 @@
   <section id="home">
     <div id="hero"></div>
     <div class="container tagline">
-      <h2>developer / rockstar*</h2>
-      <h2>*developers don't have a definition</h2>
+      <h2>software engineer / rockstar / chief mom officer x3</h2>
+      <h2>* not your typical software engineer</h2>
     </div>
     <a
       href="#what"

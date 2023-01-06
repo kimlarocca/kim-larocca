@@ -18,7 +18,7 @@
           <div class="bs_two left-margin right-margin">
             <div>
               <p>I have been designing websites since my first geocities page back in the 1990s! It may or
-                may not have been dedicated to Final Fantasy VII...</p>
+                may not have been dedicated to Final Fantasy VII... but now I've dated myself.</p>
               <v-spacer />
               <p>I
                 hold a Computer Science degree from Rutgers University as well as a degree in Italian.
@@ -30,14 +30,13 @@
                 Novartis, AstraZeneca, Celgene, Visa, Intuitive Surgical, Roche, Toys"R"Us /
                 Babies"R"Us,
                 FAO Schwartz, Wharton, WQXR, WNYC, The Gothamist and more.
-              <p>
+              </p>
                 <v-spacer />
               <p>I currently manage the engineering team for NY Public Radio. In addition
-                to managing the team, I act as an individual contributor leading our design system initiative. I am working on migrating NYPR's websites from Ember to Vue, and improving team efficiency by creating reusable Vue components along the way. I've been training the frontend developers
-                on Vue & ES6, and teaching the non-developers HTML & CSS skills. I am also working with the devops, design and product teams to streamline processes while acting as a developer evangelist.</p>
+                to this, I've been working hard on Equal Time, a startup I co-founded. Equal Time's mission is to make meetings more inclusive and effective, and I drive all aspects of Engineering, Design and Product.</p>
               <v-spacer />
               <p class="bs_margin40">When not working, you can find me rocking out with my cover band,
-                                    playing dodgeball, reading crappy young adult fantasy novels, or playing minecraft with my kids. Sadly, I
+                                    playing dodgeball, reading crappy fantasy novels, or playing minecraft with my kids. Sadly, I
                                     have not yet made time to build a Final Fantasy XV website.
               </p>
               <v-spacer />
