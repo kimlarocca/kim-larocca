@@ -1,53 +1,9 @@
-#why {
-  a.button {
-    border: solid 1px $dark-gray;
-    background-color: $white;
-    color: $dark-gray;
-    margin: 5px;
-
-    &.active {
-      background: $dark-gray;
-      color: $white !important;
-    }
-
-    &:hover {
-      background: $dark-gray;
-      color: $white;
-    }
-  }
-
-  .kim {
-    color: $white;
-  }
-
-  .testimonials {
-    .bs_one {
-      margin-bottom: 30px;
-      padding: 0 80px;
-      @media all and (max-width: $breakpoint-mobile) {
-        padding: 0;
-      }
-    }
-  }
-
-  .logos {
-    flex-wrap: wrap;
-    max-width: 100%;
-
-    .bs_one {
-      flex-basis: 90px;
-      justify-content: center;
-      padding: 2rem;
-      @media all and (max-width: $breakpoint-mobile) {
-        padding: 10px;
-        flex-basis: auto;
-      }
-
-      &.logo {
-        margin: 1rem;
-        padding: 5px;
-        background: $white;
-      }
-    }
-  }
-}
+#why { a.button { border: solid 1px $dark-gray; background-color: $white; color:
+$dark-gray; margin: 5px; &.active { background: $dark-gray; color: $white
+!important; } &:hover { background: $dark-gray; color: $white; } } .kim { color:
+$white; } .testimonials { .bs_one { margin-bottom: 30px; padding: 0 80px; @media
+all and (max-width: $breakpoint-mobile) { padding: 0; } } } .logos { flex-wrap:
+wrap; max-width: 100%; .bs_one { flex-basis: 90px; justify-content: center;
+padding: 2rem; @media all and (max-width: $breakpoint-mobile) { padding: 10px;
+flex-basis: auto; } &.logo { margin: 1rem; padding: 5px; background: $white; } }
+} }

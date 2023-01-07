@@ -75,7 +75,7 @@ import VSpacer from './VSpacer'
 
 export default {
   components: {
-    VSpacer
+    VSpacer,
   },
   mounted() {
     var canvas = document.getElementById('canvas')
@@ -86,21 +86,21 @@ export default {
     var numParticles = 30
 
     // start with random starting position
-    var Particle = function() {
+    var Particle = function () {
       this.x = canvas.width * Math.random()
       this.y = canvas.height * Math.random()
       this.vx = -1
       this.vy = Math.random()
     }
     // Adding two methods
-    Particle.prototype.Draw = function(ctx) {
+    Particle.prototype.Draw = function (ctx) {
       ctx.beginPath()
       ctx.fillStyle = 'rgba(255,255,255,0.15)'
       ctx.arc(this.x, this.y, 3, 0, 3 * Math.PI)
       ctx.fill()
     }
 
-    Particle.prototype.Update = function() {
+    Particle.prototype.Update = function () {
       // set the starting x/y to have velocity
       this.x += this.vx
       this.y += this.vy
@@ -129,6 +129,6 @@ export default {
       particles.push(new Particle())
     }
     loop()
-  }
+  },
 }
 </script>
