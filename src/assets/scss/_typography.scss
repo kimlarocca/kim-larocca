@@ -11,7 +11,7 @@ h1 {
   margin-bottom: $h1-margin;
   text-transform: $h1-transform;
   text-align: center;
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
 }
 
 h2 {
@@ -29,13 +29,13 @@ h2 {
 
   &.banner {
     font-family: $primary-font-family;
-    padding: .75rem;
+    padding: 0.75rem;
     background-color: $dark-gray;
-    color: white;
+    color: $white;
     font-weight: 300;
-    letter-spacing: .15rem;
+    letter-spacing: 0.15rem;
     font-size: 1.25rem;
-    margin: .25rem 0;
+    margin: 0.25rem 0;
     text-transform: lowercase;
     @media all and (max-width: $breakpoint-mobile) {
       font-size: 1rem;
@@ -51,15 +51,15 @@ h3 {
   color: $h3-color;
   margin-bottom: $h3-margin;
   text-transform: $h3-transform;
-  letter-spacing: .875rem;
+  letter-spacing: 0.875rem;
 
   &.white {
-    color: white;
+    color: $white;
   }
 
   @media screen and (max-width: $breakpoint-mobile) {
     font-size: 1.5rem;
-    letter-spacing: .25em;
+    letter-spacing: 0.25em;
   }
 }
 
@@ -87,7 +87,7 @@ p {
   text-transform: $p-transform;
 
   &.white {
-    color: white;
+    color: $white;
   }
 }
 

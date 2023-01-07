@@ -22,13 +22,13 @@
 
   &.inactive {
     background-color: $dark-gray;
-    color: white !important;
+    color: $white !important;
     border: $dark-gray 2px solid;
     text-decoration: none;
     opacity: 1;
 
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
       text-decoration: none;
     }
   }

@@ -36,14 +36,14 @@ $max-width: 100vw;
     .banner {
       transition: $transition;
       background-color: $dark-gray;
-      color: white;
+      color: $white;
     }
 
     &:hover,
     &:focus {
       outline: none;
       .banner {
-        background-color: white;
+        background-color: $white;
         color: $dark-gray;
       }
     }
@@ -58,9 +58,12 @@ $max-width: 100vw;
     bottom: 0;
     right: 0;
     left: 0;
-    background: white;
-    text-align: center;
+    background: #ffffff;
     overflow: auto;
+
+    h3 {
+      text-align: center;
+    }
 
     .portfolio-item-close {
       cursor: pointer;

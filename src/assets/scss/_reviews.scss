@@ -18,7 +18,7 @@ article {
   width: 100%;
   padding: 15px;
   margin-bottom: 40px;
-  background: white;
+  background: $white;
   border: solid 1px $dark-gray;
   //color: rgb(35, 26, 29);
   //background-color: rgb(255, 255, 255);
@@ -34,7 +34,7 @@ article {
   }
 
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -16px;
     left: 20px;

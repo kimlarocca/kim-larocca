@@ -3,12 +3,13 @@ $breakpoint-mobile: 563px;
 $nav-breakpoint: 1100px;
 
 //Colors
-$background-color: #fff;
+$white: #f3ede5;
+$background-color: $white;
 $light-gray: #d6ced0;
 $medium-gray: #aea8aa;
-$dark-gray: #231a1d;
+$dark-gray: #25261f;
 $primary-color: #d2c8cb;
-$secondary-color: #714954;
+$secondary-color: #c40731;
 $tertiary-color: #e9a568;
 $quaternary-color: #714954;
 
@@ -23,7 +24,7 @@ $secondary-font-family: 'Domine', sans-serif;
 $h1-font-family: $primary-font-family;
 $h1-size: 80px;
 $h1-weight: 300;
-$h1-color: white;
+$h1-color: $white;
 $h1-line-height: 1.25em;
 $h1-margin: 0;
 $h1-transform: none;
@@ -72,13 +73,13 @@ $button-font-size: 16px;
 $button-font-color: $dark-gray;
 $button-font-weight: 600;
 $button-text-transform: capitalize;
-$button-background-color: white;
+$button-background-color: $white;
 $button-border: $dark-gray 1px solid;
 $button-background-color-hover: $dark-gray;
-$button-font-color-hover: white;
+$button-font-color-hover: $white;
 $button-border-hover: $dark-gray 1px solid;
 $button-padding: 1rem 2rem;
-$button-transition: .25s all linear;
+$button-transition: 0.25s all linear;
 
 //Lists
 $ul-margin: 0;

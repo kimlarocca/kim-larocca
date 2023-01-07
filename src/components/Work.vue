@@ -1,7 +1,7 @@
 <template>
   <section id="work" class="padding-bottom-0">
-    <v-spacer size="100px"></v-spacer>
-    <div class="container">
+    <div class="container black">
+      <v-spacer size="100px"></v-spacer>
       <h2>From thousand dollar websites to billion dollar websites, I've got you covered.</h2>
       <v-spacer size="100px"></v-spacer>
     </div>

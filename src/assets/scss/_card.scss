@@ -10,7 +10,7 @@
     background-color: rgb(255, 255, 255);
     mix-blend-mode: difference;
     @media all and (max-width: $breakpoint-mobile) {
-      color: white;
+      color: $white;
       background-color: $dark-gray;
       mix-blend-mode: normal;
     }

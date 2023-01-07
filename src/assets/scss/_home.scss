@@ -12,15 +12,18 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero.jpg") center center;
+    background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero.jpg')
+      center center;
     background-size: cover;
     z-index: 10;
     @media all and (max-width: $breakpoint-tablet) {
-      background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero-tablet_aaajkz.jpg") center center;
+      background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero-tablet_aaajkz.jpg')
+        center center;
       background-size: cover;
     }
     @media all and (max-width: $breakpoint-mobile) {
-      background: url("https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero-mobile_oykx3r.jpg") center center;
+      background: url('https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584805637/kimlarocca/portfolio/hero-mobile_oykx3r.jpg')
+        center center;
       background-size: cover;
     }
   }
@@ -55,7 +58,7 @@
       float: left;
       clear: left;
       margin-top: 20px;
-      color: white;
+      color: $white;
       font-size: 1rem;
       max-width: 50%;
       font-weight: 600;
@@ -75,8 +78,8 @@
 //scroll down indicator
 .scroll-down {
   opacity: 1;
-  -webkit-transition: all .5s ease-in 3s;
-  transition: all .5s ease-in 3s;
+  -webkit-transition: all 0.5s ease-in 3s;
+  transition: all 0.5s ease-in 3s;
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -90,10 +93,10 @@
   //animation: bounce 2s infinite 2s;
   //-webkit-transition: all .2s ease-in;
   //transition: all .2s ease-in;
-  transform: scale(.6);
+  transform: scale(0.6);
 
   &:focus {
-    border: solid 1px white;
+    border: solid 1px $white;
   }
 
   @media all and (max-width: $breakpoint-mobile) {
@@ -108,8 +111,8 @@
     display: block;
     width: 25px;
     height: 25px;
-    content: "";
-    border: 2px solid white;
+    content: '';
+    border: 2px solid $white;
     border-width: 0px 0 2px 2px;
   }
 }

@@ -20,20 +20,20 @@ footer {
   a,
   a:visited,
   a:active {
-    color: white;
+    color: $white;
     text-decoration: underline;
     opacity: 1;
     &:hover,
     &:focus {
       outline: none;
-      color: white;
+      color: $white;
       text-decoration: underline;
       opacity: 0.8;
     }
   }
   h2,
   p {
-    color: white;
+    color: $white;
   }
   .bs_row {
     flex-direction: row;
@@ -53,7 +53,7 @@ footer {
     }
     svg {
       stroke-width: 0;
-      fill: white;
+      fill: $white;
       width: 2rem;
       height: 2rem;
       opacity: 1;

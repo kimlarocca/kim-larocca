@@ -1,23 +1,23 @@
 #why {
   a.button {
     border: solid 1px $dark-gray;
-    background-color: white;
+    background-color: $white;
     color: $dark-gray;
     margin: 5px;
-  
+
     &.active {
       background: $dark-gray;
-      color: white!important;
+      color: $white !important;
     }
 
     &:hover {
       background: $dark-gray;
-      color: white;
+      color: $white;
     }
   }
 
   .kim {
-    color: white;
+    color: $white;
   }
 
   .testimonials {
@@ -46,7 +46,7 @@
       &.logo {
         margin: 1rem;
         padding: 5px;
-        background: white;
+        background: $white;
       }
     }
   }

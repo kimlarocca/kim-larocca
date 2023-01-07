@@ -1,22 +1,22 @@
-@import "reset";
-@import "framework";
-@import "variables";
-@import "typography";
-@import "colors";
-@import "buttons";
-@import "lists";
-@import "header";
-@import "footer";
-@import "transitions";
-@import "home";
-@import "what";
-@import "work";
-@import "who";
-@import "why";
-@import "footer";
-@import "portfolio";
-@import "card";
-@import "reviews";
+@import 'reset';
+@import 'framework';
+@import 'variables';
+@import 'typography';
+@import 'colors';
+@import 'buttons';
+@import 'lists';
+@import 'header';
+@import 'footer';
+@import 'transitions';
+@import 'home';
+@import 'what';
+@import 'work';
+@import 'who';
+@import 'why';
+@import 'footer';
+@import 'portfolio';
+@import 'card';
+@import 'reviews';
 
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -100,13 +100,13 @@ figure {
     letter-spacing: 1.5px;
     padding: 10px;
     font-size: 20px;
-    color: white;
+    color: #25261f;
     @media all and (max-width: $breakpoint-mobile) {
       left: 20px;
     }
 
     &.white {
-      background-color: white;
+      background-color: $white;
       color: $dark-gray;
     }
   }

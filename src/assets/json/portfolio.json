@@ -11,7 +11,7 @@
     "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1673032774/kimlarocca/portfolio/equal-time-thumbnail_fjtinh.jpg",
     "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673032458/kimlarocca/portfolio/Zoom_Screenshot_mx4j8q.jpg",
     "category": "tech",
-    "description": "Equal Time's mission is to make meetings more inclusive and effective. Kim co-founded this startup and is the acting CTO. She drives all aspects of Engineering, Design and Product, building web apps with data visualization dashboards, chrome extensions and Zoom apps. In addition, she assists with fundraising and recruiting. The websites and Zoom App were built with a Vue frontend and Node.js backend, Supabase, and Azure for hosting and DevOps. Check out Equal Time online at <a href='https://www.equaltime.io/' target='_blank'>https://www.equaltime.io/</a>!"
+    "description": "Equal Time's mission is to make meetings more inclusive and effective. Kim co-founded this startup and is the acting CTO. She drives all aspects of Engineering, Design and Product, building web apps with data visualization dashboards, chrome extensions and Zoom apps. In addition, she assists with fundraising and recruiting. The websites and Zoom App were built with a Vue frontend and Node.js backend, Supabase, and Azure for hosting and DevOps. Check out Equal Time online at <a href='https://www.equaltime.io/' target='_blank'>https://www.equaltime.io</a>!"
   },
   {
     "name": "Black Lives Matter",
@@ -30,9 +30,9 @@
   {
     "name": "Gothamist",
     "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1637971865/kimlarocca/portfolio/gothamist_dpchcq.png",
-    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1637971557/kimlarocca/portfolio/gothamist-showcase_mwu20r.png",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673109841/kimlarocca/portfolio/gothamist-showcase_awpwjp.jpg",
     "category": "media",
-    "description": "Kim led the NY Public Radio digital team in migrating the Gothamist website from Ember to Vue & Nuxt which resulted in 80% faster page speeds and a 45% increase in average session duration. Nuxt did a case study on this project, read more at <a href='https://nuxtjs.org/case-studies/new-york-public-radio' target='_blank'>https://nuxtjs.org/case-studies/new-york-public-radio</a>, or check it out online at <a href='https://gothamist.com' target='_blank'>https://gothamist.com</a>!"
+    "description": "Kim led the NY Public Radio digital team in migrating the Gothamist website from Ember to Vue 3 & Nuxt 3 which resulted in 80% faster page speeds and a 45% increase in average session duration. Nuxt did a case study on this project, read more at <a href='https://nuxtjs.org/case-studies/new-york-public-radio' target='_blank'>https://nuxtjs.org/case-studies/new-york-public-radio</a>, or check it out online at <a href='https://gothamist.com' target='_blank'>https://gothamist.com</a>!"
   },
   {
     "name": "Toys\"R\"Us Product Engine",
