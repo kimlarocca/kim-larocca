@@ -64,7 +64,7 @@ export default {
       geometry = new THREE.CubeGeometry(200, 200, 200)
       material = new THREE.MeshLambertMaterial({
         color: 0xf8cb8a,
-        wireframe: false
+        wireframe: false,
       })
       mesh = new THREE.Mesh(geometry, material)
       //scene.add( mesh );
@@ -74,7 +74,7 @@ export default {
         color: 0xf8cb8a,
         opacity: 0.15,
         map: smokeTexture,
-        transparent: true
+        transparent: true,
       })
       smokeGeo = new THREE.PlaneGeometry(300, 300)
       smokeParticles = []
@@ -115,6 +115,6 @@ export default {
       mesh.position.z = 100 + Math.sin(cubeSineDriver) * 500
       renderer.render(scene, camera)
     }
-  }
+  },
 }
 </script>

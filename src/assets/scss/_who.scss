@@ -1,43 +1,9 @@
-#who {
-  position: relative;
-
-  h2,
-  p {
-    color: rgb(255, 255, 255);
-    mix-blend-mode: difference;
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    width: 900px;
-    height: 473px;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-  }
-
-  .diagonal {
-    background: linear-gradient(53deg, $white, $white 55%, $dark-gray calc(45% + 6px), $dark-gray 100%);
-    transition: $transition;
-  }
-
-  .bs_one {
-    padding: 0 50px;
-    @media all and (max-width: $breakpoint-mobile) {
-      padding: 0;
-    }
-  }
-
-  figcaption {
-    color: rgb(35, 26, 29);
-    background-color: rgb(255, 255, 255);
-    mix-blend-mode: difference;
-    @media all and (max-width: $breakpoint-mobile) {
-      color: $white;
-      background-color: $dark-gray;
-      mix-blend-mode: normal;
-      left: 40px;
-    }
-  }
-}
+#who { position: relative; h2, p { color: rgb(255, 255, 255); mix-blend-mode:
+difference; } &:before { content: ''; position: absolute; width: 900px; height:
+473px; top: 0; left: 0; opacity: 0.5; } .diagonal { background:
+linear-gradient(53deg, $white, $white 55%, $dark-gray calc(45% + 6px),
+$dark-gray 100%); transition: $transition; } .bs_one { padding: 0 50px; @media
+all and (max-width: $breakpoint-mobile) { padding: 0; } } figcaption { color:
+rgb(35, 26, 29); background-color: rgb(255, 255, 255); mix-blend-mode:
+difference; @media all and (max-width: $breakpoint-mobile) { color: $white;
+background-color: $dark-gray; mix-blend-mode: normal; left: 40px; } } }

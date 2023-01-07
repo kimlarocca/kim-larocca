@@ -1,56 +1,15 @@
-article {
-  -webkit-column-width: 300px;
-  -moz-column-width: 300px;
-  column-width: 300px;
-  -webkit-column-gap: 3em;
-  -moz-column-gap: 3em;
-  column-gap: 3em;
-  padding: 40px;
-
-  @media all and (max-width: $breakpoint-mobile) {
-    padding: 10px;
-    margin-top: 60px;
-  }
-}
-
-.bubble {
-  position: relative;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 40px;
-  background: $white;
-  border: solid 1px $dark-gray;
-  //color: rgb(35, 26, 29);
-  //background-color: rgb(255, 255, 255);
-  //mix-blend-mode: difference;
-  -webkit-column-break-inside: avoid; /* Chrome, Safari */
-  page-break-inside: avoid; /* Theoretically FF 20+ */
-  break-inside: avoid-column; /* IE 11 */
-  display: table; /* Actually FF 20+ */
-  line-height: 1.5em;
-
-  @media all and (max-width: $breakpoint-mobile) {
-    width: calc(100% - 30px);
-  }
-
-  &:after {
-    content: '';
-    position: absolute;
-    bottom: -16px;
-    left: 20px;
-    border-style: solid;
-    border-width: 15px 15px 0;
-    //border-color: $dark-gray transparent;
-    border-color: rgb(255, 255, 255) transparent;
-    mix-blend-mode: difference;
-    display: block;
-    width: 0;
-    z-index: 2;
-  }
-
-  small {
-    font-style: italic;
-    display: block;
-    padding-top: 10px;
-  }
-}
+article { -webkit-column-width: 300px; -moz-column-width: 300px; column-width:
+300px; -webkit-column-gap: 3em; -moz-column-gap: 3em; column-gap: 3em; padding:
+40px; @media all and (max-width: $breakpoint-mobile) { padding: 10px;
+margin-top: 60px; } } .bubble { position: relative; width: 100%; padding: 15px;
+margin-bottom: 40px; background: $white; border: solid 1px $dark-gray; //color:
+rgb(35, 26, 29); //background-color: rgb(255, 255, 255); //mix-blend-mode:
+difference; -webkit-column-break-inside: avoid; /* Chrome, Safari */
+page-break-inside: avoid; /* Theoretically FF 20+ */ break-inside: avoid-column;
+/* IE 11 */ display: table; /* Actually FF 20+ */ line-height: 1.5em; @media all
+and (max-width: $breakpoint-mobile) { width: calc(100% - 30px); } &:after {
+content: ''; position: absolute; bottom: -16px; left: 20px; border-style: solid;
+border-width: 15px 15px 0; //border-color: $dark-gray transparent; border-color:
+rgb(255, 255, 255) transparent; mix-blend-mode: difference; display: block;
+width: 0; z-index: 2; } small { font-style: italic; display: block; padding-top:
+10px; } }
