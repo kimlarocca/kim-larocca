@@ -30,7 +30,7 @@
   {
     "name": "Gothamist",
     "image": "https://res.cloudinary.com/kimlarocca/image/upload/v1637971865/kimlarocca/portfolio/gothamist_dpchcq.png",
-    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673109841/kimlarocca/portfolio/gothamist-showcase_awpwjp.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1673464356/kimlarocca/portfolio/gothamist_njzcjo.jpg",
     "category": "media",
     "description": "Kim led the NY Public Radio digital team in migrating the Gothamist website from Ember to Vue 3 & Nuxt 3 which resulted in 80% faster page speeds and a 45% increase in average session duration. Nuxt did a case study on this project, read more at <a href='https://nuxtjs.org/case-studies/new-york-public-radio' target='_blank'>https://nuxtjs.org/case-studies/new-york-public-radio</a>, or check it out online at <a href='https://gothamist.com' target='_blank'>https://gothamist.com</a>!"
   },
@@ -51,7 +51,7 @@
   {
     "name": "Babies\"R\"Us Happy Places",
     "image": "https://res.cloudinary.com/kimlarocca/image/upload/f_auto/v1584736145/kimlarocca/portfolio/bru_xxkcos.jpg",
-    "url": "https://www.kimlarocca.com/images/showcase-bru.jpg",
+    "url": "https://res.cloudinary.com/kimlarocca/image/upload/v1584736171/kimlarocca/portfolio/showcase-babies_bcvaor.jpg",
     "category": "ecommerce",
     "description": "Happy Places, a responsive e-commerce Micro-Destination, featured an interactive parallax experience with CSS animations, full screen image sliders, responsive tooltips and lightboxes."
   },
