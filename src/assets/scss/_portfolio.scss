@@ -1,86 +1,15 @@
-$max-width: 100vw;
-
-.portfolio {
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  flex-shrink: 1;
-  flex-wrap: wrap;
-
-  .portfolio-item {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    width: $max-width/3;
-    height: $max-width/3;
-    opacity: 1;
-    transition: $transition;
-    overflow: hidden;
-    background-size: cover;
-
-    @media all and (max-width: $max-width) {
-      width: 33.33%;
-      height: 33vw;
-    }
-
-    @media all and (max-width: $breakpoint-tablet) {
-      width: 50%;
-      height: 50vw;
-    }
-
-    @media all and (max-width: $breakpoint-mobile) {
-      width: 100%;
-      height: 100vw;
-    }
-
-    .banner {
-      transition: $transition;
-      background-color: $dark-gray;
-      color: $white;
-    }
-
-    &:hover,
-    &:focus {
-      outline: none;
-      .banner {
-        background-color: $white;
-        color: $dark-gray;
-      }
-    }
-  }
-
-  .portfolio-item-details {
-    z-index: 1000;
-    position: fixed;
-    width: calc(100% - 6rem);
-    padding: 0 3rem;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: #ffffff;
-    overflow: auto;
-
-    h3,
-    img {
-      text-align: center;
-      margin: auto;
-    }
-
-    .portfolio-item-close {
-      cursor: pointer;
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      padding: 1rem;
-      z-index: 10;
-      transition: $transition;
-      color: $dark-gray;
-      font-size: 1.5rem;
-
-      &:hover {
-        color: $link-color;
-      }
-    }
-  }
-}
+$max-width: 100vw; .portfolio { max-width: 100%; margin: auto; display: flex;
+flex-shrink: 1; flex-wrap: wrap; .portfolio-item { display: flex; cursor:
+pointer; align-items: center; width: $max-width/3; height: $max-width/3;
+opacity: 1; transition: $transition; overflow: hidden; background-size: cover;
+@media all and (max-width: $max-width) { width: 33.33%; height: 33vw; } @media
+all and (max-width: $breakpoint-tablet) { width: 50%; height: 50vw; } @media all
+and (max-width: $breakpoint-mobile) { width: 100%; height: 100vw; } .banner {
+transition: $transition; background-color: $dark-gray; color: $white; } &:hover,
+&:focus { outline: none; .banner { background-color: $white; color: $dark-gray;
+} } } .portfolio-item-details { z-index: 1000; position: fixed; width: calc(100%
+- 6rem); padding: 0 3rem; top: 0; bottom: 0; right: 0; left: 0; background:
+#ffffff; overflow: auto; h3, img { text-align: center; margin: auto; }
+.portfolio-item-close { cursor: pointer; position: absolute; top: 1rem; right:
+1rem; padding: 1rem; z-index: 10; transition: $transition; color: $dark-gray;
+font-size: 1.5rem; &:hover { color: $link-color; } } } }
