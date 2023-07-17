@@ -4,6 +4,9 @@
     background-color: $white;
     color: $dark-gray;
     margin: 5px;
+    @media all and (max-width: $breakpoint-mobile) {
+      width: 250px;
+    }
 
     &.active {
       background: $dark-gray;

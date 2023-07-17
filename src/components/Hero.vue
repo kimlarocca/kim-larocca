@@ -2,8 +2,8 @@
   <section id="home">
     <div id="hero"></div>
     <div class="container tagline">
-      <h2>co-founder at equal time / engineering manager at npr</h2>
-      <h2>chief mom officer x 3 / rock star</h2>
+      <h2>co-founder at equal time</h2>
+      <h2>engineering manager at npr</h2>
     </div>
     <a
       href="#what"
